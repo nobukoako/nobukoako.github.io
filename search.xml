@@ -100,29 +100,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
-    <url>/posts/b5c73c87/</url>
-    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
-<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
-</li>
-<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
-</li>
-<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
-</li>
-</ol>
-<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
-<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
-<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Vivid Color</tag>
-        <tag>Nessa no Rakuen</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【Tutorial】 How to extract, edit, and re-insert Emon engine scripts for translations (Ego to Koukai no Dilemma)</title>
     <url>/posts/ca51340e/</url>
     <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
@@ -145,6 +122,91 @@
         <tag>Ego to Koukai no Dilemma</tag>
         <tag>Dilemma of Ego and Regret</tag>
         <tag>EgoDille</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert DDSystem scripts for translations (Shingakkou -Noli me tangere-, Haiiro no Arcadia, Dystopia no ou, Pigeon Blood)</title>
+    <url>/posts/1702e957/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><a href="https://github.com/yanhua0518/GALgameScriptTools/">DDWSystemTool</a></li>
+</ol>
+<h2 id="Extracting-text-dat"><a href="#Extracting-text-dat" class="headerlink" title="Extracting _text.dat"></a>Extracting _text.dat</h2><p>Put the _text.dat file inside the DDWSystemTool folder directory, open PowerShell and type “cmd”, press Enter.</p>
+<p><img src="/img/explorer_DJBYEm20JN.png"> <img src="/img/c4XaMeIUpI.png"></p>
+<p>To extract _text.dat, do:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -x [file or folder]</span><br></pre></td></tr></table></figure>
+<p><img src="/img/powershell_mh6AhV5C3p.png"></p>
+<p>This will create a new folder containing .hxb files.</p>
+<h2 id="Extracting-script-text-from-hxb"><a href="#Extracting-script-text-from-hxb" class="headerlink" title="Extracting script text from .hxb"></a>Extracting script text from .hxb</h2><p>To extract the script text from the .hxb files, do:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -e [file or folder]</span><br></pre></td></tr></table></figure>
+<p><img src="/img/powershell_PWRibXjZI1.png"> <img src="/img/notepad_4T70M89tpp.png"></p>
+<h3 id="Details-about-the-extracted-script-text-format"><a href="#Details-about-the-extracted-script-text-format" class="headerlink" title="Details about the extracted script text format"></a>Details about the extracted script text format</h3><p>The extracted script format is in “double line” or “two-line” format. Meaning, you should only put your translations on the “◆” tag. </p>
+<p><img src="/img/notepad_N73T3ow7Wr1.png"> <img src="/img/notepad_8eU8CbIdbq.png"><br>This should be obvious, but don’t modify the line-breaks (\n) that’s at the start of narration or dialogue. </p>
+<p><img src="/img/notepad_4T70M89tpp2.png"></p>
+<p>Other than that, you can force a line-break as you please with (\n).</p>
+<h2 id="Rebuilding-the-script"><a href="#Rebuilding-the-script" class="headerlink" title="Rebuilding the script"></a>Rebuilding the script</h2><div class="note info flat"><p>Make sure the .hxb files and text files are in the same folder.</p>
+</div>
+<p>To re-insert the edited text files back into .hxb files do:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -b [.hxb file or folder]</span><br></pre></td></tr></table></figure>
+<p><img src="/img/powershell_yIsALHjBqS.png"></p>
+<p>This will create a new folder called “rebuild” with your rebuilt .hxb files with it’s text replaced.</p>
+<h2 id="Repacking-text-dat"><a href="#Repacking-text-dat" class="headerlink" title="Repacking _text.dat"></a>Repacking _text.dat</h2><p>To repack _text.dat do:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -2 [folder]</span><br><span class="line">DDWSystemTool -3 [folder]</span><br></pre></td></tr></table></figure>
+<p><img src="/img/powershell_rw4GueOqLN.png"><br>If you’re asking, “How do I know it’s DDP2 or DPP3?” Pretty easy; if you got the wrong one, an error message will appear at the start. But all visual novels I’ve tested used DPP3.</p>
+<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p><img src="/img/%E7%81%B0%E8%89%B2%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%87%E3%82%A3%E3%82%A2_SGjCZXUmjB.png"></p>
+
+<p align="center">
+Haiiro no Arcadia, Gray Arcadia, 灰色のアルカディア
+</p>
+
+<p><img src="/img/%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%94%E3%82%A2%E3%81%AE%E7%8E%8B_6wfv3RC042.png"></p>
+
+<p align="center">
+Dystopia no ou, King of Dystopia, ディストピアの王
+</p>
+
+<p><img src="/img/%E7%A5%9E%E5%AD%A6%E6%A0%A1_pLxgHxaKHx.png"></p>
+
+<p align="center">
+Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
+</p>
+
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>PIL/SLASH</tag>
+        <tag>Shingakkou noli me tangere</tag>
+        <tag>Theological Seminary</tag>
+        <tag>Dystopia no ou</tag>
+        <tag>King of Dystopia</tag>
+        <tag>Pigeon Blood</tag>
+        <tag>Peaky</tag>
+        <tag>Haiiro no Arcadia</tag>
+        <tag>Gray Arcadia</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
+    <url>/posts/b5c73c87/</url>
+    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
+<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
+</li>
+<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
+</li>
+<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
+</li>
+</ol>
+<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
+<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
+<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Vivid Color</tag>
+        <tag>Nessa no Rakuen</tag>
       </tags>
   </entry>
   <entry>
@@ -191,6 +253,33 @@
       </tags>
   </entry>
   <entry>
+    <title>【BL Game】 Anata Nikki ~Euforia~</title>
+    <url>/posts/1c4c88cd/</url>
+    <content><![CDATA[<p><img src="/img/96575.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 貴方日記～ユーフォリア～, Anata Nikki ~Euforia~, Uuu Diary ~Euphoria~, You Diary ~Euforia~, Anata Nikki ~Yuuforia~<br>Developer : Create Department Visual Works Co., Ltd.<br>Play time: Medium<br>VNDB: v19492<br>Engine: Kirikiri</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>An illness that effects only the Elite of those with a noble lineage, drives the protagonist’s feelings of unrequited love to turn into a violent rage.</p>
+<p>A self-righteous enterprises’ conspiracy swallows up a Japanese ministry with their twisted passion, begins to set the wheels in motion…</p>
+<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
+  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
+    <span class="gallery-data">[{"url":"/img/169038.jpg","alt":""},{"url":"/img/169814.jpg","alt":""},{"url":"/img/169813.jpg","alt":""},{"url":"/img/169036.jpg","alt":""},{"url":"https://t.vndb.org/sf/37/169037.jpg","alt":""},{"url":"https://t.vndb.org/sf/15/169815.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>Load More</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/5QQF1IqC#qpQbOMH-QqNqNQ3La_n3n5ViuPpIdd8Brt0W4gEZKqg">MEGA</a></b>
+</p>
+
+]]></content>
+      <categories>
+        <category>BL Games</category>
+      </categories>
+      <tags>
+        <tag>Create Department Visual Works Co., Ltd.</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Tutorial】 How to extract, edit, and re-insert YU-RIS engine scripts for translations (Narisokonai no Yosuga)</title>
     <url>/posts/16572e88/</url>
     <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
@@ -219,33 +308,6 @@
         <tag>noR+</tag>
         <tag>Narisokonai no Yosuga</tag>
         <tag>Nariyosu</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL Game】 Anata Nikki ~Euforia~</title>
-    <url>/posts/1c4c88cd/</url>
-    <content><![CDATA[<p><img src="/img/96575.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 貴方日記～ユーフォリア～, Anata Nikki ~Euforia~, Uuu Diary ~Euphoria~, You Diary ~Euforia~, Anata Nikki ~Yuuforia~<br>Developer : Create Department Visual Works Co., Ltd.<br>Play time: Medium<br>VNDB: v19492<br>Engine: Kirikiri</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>An illness that effects only the Elite of those with a noble lineage, drives the protagonist’s feelings of unrequited love to turn into a violent rage.</p>
-<p>A self-righteous enterprises’ conspiracy swallows up a Japanese ministry with their twisted passion, begins to set the wheels in motion…</p>
-<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
-  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
-    <span class="gallery-data">[{"url":"/img/169038.jpg","alt":""},{"url":"/img/169814.jpg","alt":""},{"url":"/img/169813.jpg","alt":""},{"url":"/img/169036.jpg","alt":""},{"url":"https://t.vndb.org/sf/37/169037.jpg","alt":""},{"url":"https://t.vndb.org/sf/15/169815.jpg","alt":""}]</span>
-  </div><button class="gallery-load-more" style="opacity:0">
-  <span>Load More</span>
-  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
-  </button></div>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/5QQF1IqC#qpQbOMH-QqNqNQ3La_n3n5ViuPpIdd8Brt0W4gEZKqg">MEGA</a></b>
-</p>
-
-]]></content>
-      <categories>
-        <category>BL Games</category>
-      </categories>
-      <tags>
-        <tag>Create Department Visual Works Co., Ltd.</tag>
       </tags>
   </entry>
   <entry>
@@ -312,68 +374,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert DDSystem scripts for translations (Shingakkou -Noli me tangere-, Haiiro no Arcadia, Dystopia no ou, Pigeon Blood)</title>
-    <url>/posts/1702e957/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><a href="https://github.com/yanhua0518/GALgameScriptTools/">DDWSystemTool</a></li>
-</ol>
-<h2 id="Extracting-text-dat"><a href="#Extracting-text-dat" class="headerlink" title="Extracting _text.dat"></a>Extracting _text.dat</h2><p>Put the _text.dat file inside the DDWSystemTool folder directory, open PowerShell and type “cmd”, press Enter.</p>
-<p><img src="/img/explorer_DJBYEm20JN.png"> <img src="/img/c4XaMeIUpI.png"></p>
-<p>To extract _text.dat, do:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -x [file or folder]</span><br></pre></td></tr></table></figure>
-<p><img src="/img/powershell_mh6AhV5C3p.png"></p>
-<p>This will create a new folder containing .hxb files.</p>
-<h2 id="Extracting-script-text-from-hxb"><a href="#Extracting-script-text-from-hxb" class="headerlink" title="Extracting script text from .hxb"></a>Extracting script text from .hxb</h2><p>To extract the script text from the .hxb files, do:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -e [file or folder]</span><br></pre></td></tr></table></figure>
-<p><img src="/img/powershell_PWRibXjZI1.png"> <img src="/img/notepad_4T70M89tpp.png"></p>
-<h3 id="Details-about-the-extracted-script-text-format"><a href="#Details-about-the-extracted-script-text-format" class="headerlink" title="Details about the extracted script text format"></a>Details about the extracted script text format</h3><p>The extracted script format is in “double line” or “two-line” format. Meaning, you should only put your translations on the “◆” tag. </p>
-<p><img src="/img/notepad_N73T3ow7Wr1.png"> <img src="/img/notepad_8eU8CbIdbq.png"><br>This should be obvious, but don’t modify the line-breaks (\n) that’s at the start of narration or dialogue. </p>
-<p><img src="/img/notepad_4T70M89tpp2.png"></p>
-<p>Other than that, you can force a line-break as you please with (\n).</p>
-<h2 id="Rebuilding-the-script"><a href="#Rebuilding-the-script" class="headerlink" title="Rebuilding the script"></a>Rebuilding the script</h2><div class="note info flat"><p>Make sure the .hxb files and text files are in the same folder.</p>
-</div>
-<p>To re-insert the edited text files back into .hxb files do:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -b [.hxb file or folder]</span><br></pre></td></tr></table></figure>
-<p><img src="/img/powershell_yIsALHjBqS.png"></p>
-<p>This will create a new folder called “rebuild” with your rebuilt .hxb files with it’s text replaced.</p>
-<h2 id="Repacking-text-dat"><a href="#Repacking-text-dat" class="headerlink" title="Repacking _text.dat"></a>Repacking _text.dat</h2><p>To repack _text.dat do:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">DDWSystemTool -2 [folder]</span><br><span class="line">DDWSystemTool -3 [folder]</span><br></pre></td></tr></table></figure>
-<p><img src="/img/powershell_rw4GueOqLN.png"><br>If you’re asking, “How do I know it’s DDP2 or DPP3?” Pretty easy; if you got the wrong one, an error message will appear at the start. But all visual novels I’ve tested used DPP3.</p>
-<h2 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h2><p><img src="/img/%E7%81%B0%E8%89%B2%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%AB%E3%83%87%E3%82%A3%E3%82%A2_SGjCZXUmjB.png"></p>
-
-<p align="center">
-Haiiro no Arcadia, Gray Arcadia, 灰色のアルカディア
-</p>
-
-<p><img src="/img/%E3%83%87%E3%82%A3%E3%82%B9%E3%83%88%E3%83%94%E3%82%A2%E3%81%AE%E7%8E%8B_6wfv3RC042.png"></p>
-
-<p align="center">
-Dystopia no ou, King of Dystopia, ディストピアの王
-</p>
-
-<p><img src="/img/%E7%A5%9E%E5%AD%A6%E6%A0%A1_pLxgHxaKHx.png"></p>
-
-<p align="center">
-Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
-</p>
-
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Peaky</tag>
-        <tag>PIL/SLASH</tag>
-        <tag>Shingakkou noli me tangere</tag>
-        <tag>Theological Seminary</tag>
-        <tag>Dystopia no ou</tag>
-        <tag>King of Dystopia</tag>
-        <tag>Pigeon Blood</tag>
-        <tag>Haiiro no Arcadia</tag>
-        <tag>Gray Arcadia</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【BL Game】 Melancholic Dreamtower</title>
     <url>/posts/b014d67c/</url>
     <content><![CDATA[<p><img src="https://static.wixstatic.com/media/e12982_d9cba1a70664457aa701f7257f2b792a~mv2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/mdt_g_top.jpg"></p>
@@ -412,110 +412,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </categories>
       <tags>
         <tag>Gintou</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert Macromedia Director scripts for translations (Akai Yoru, Hoshi no Sasayaki o Kike, Boku no Kareshi wa Juliet)</title>
-    <url>/posts/dc0a119c/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
-</li>
-<li><p><a href="https://archive.org/details/macromediadirector8">Macromedia Director</a></p>
-</li>
-</ol>
-<h2 id="Extracting-cxt"><a href="#Extracting-cxt" class="headerlink" title="Extracting .cxt"></a>Extracting .cxt</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder, then open arc_conv.exe and select the .cxt file to extract it. The scripts are the text files.</p>
-<h2 id="Repacking-cxt-or-cst-untested"><a href="#Repacking-cxt-or-cst-untested" class="headerlink" title="Repacking .cxt or .cst (untested)"></a>Repacking .cxt or .cst (untested)</h2><p>Go to File &gt; Import, drag the files into the “Cast” window, go to File &gt; Save As and choose “Cast File”. In theory, repacking it just as a .cst file should work fine.</p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Moon Parrot</tag>
-        <tag>Akai Yoru, Hoshi no Sasayaki o Kike</tag>
-        <tag>SandalDash</tag>
-        <tag>Boku no Kareshi wa Juliet</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL Game】 powdergray</title>
-    <url>/posts/c1d31f55/</url>
-    <content><![CDATA[<p><img src="/img/twitter%E3%83%98%E3%83%83%E3%83%80%E3%83%BC1500-500.png"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : パウダーグレイ&#x2F;powdergray<br>Developer : cream△<br>Play time: Short<br>VNDB: v27185<br>Engine: Tyranoscript</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>Suffering from a severe heart condition, Satomi Kubodaira’s life is prolonged<br>by a combination of medical progress and miracles…<br>But he receives the news that he will die by the age of 24.</p>
-<p>He starts living with childhood friend Fumiyo Nukui to spend the days left to him…<br>But one day he becomes lost in an unfamiliar part of town.<br>In the midst of his helplessness, he witnesses a murder.</p>
-<p>Cornered by the lust murderer Some Fujiwara,<br>Satomi is suddenly on the receiving end of a confession of love…</p>
-<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
-  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
-    <span class="gallery-data">[{"url":"https://t.vndb.org/sf/95/155595.jpg","alt":""},{"url":"https://t.vndb.org/sf/97/155597.jpg","alt":""},{"url":"https://t.vndb.org/sf/98/155598.jpg","alt":""},{"url":"https://t.vndb.org/sf/99/155599.jpg","alt":""}]</span>
-  </div><button class="gallery-load-more" style="opacity:0">
-  <span>Load More</span>
-  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
-  </button></div>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/EVQSSQDb#XQNumsduXgH1nA0PUeX276IOVChJudsyS66UYyXDAVA">MEGA</a></b>
-</p>
-
-
-<p align="center">
-<b><a href="https://www.mediafire.com/file/7b19mnlxifuei41/powergray.rar/file">Mediafire</a></b>
-</p>
-
-]]></content>
-      <categories>
-        <category>BL Games</category>
-      </categories>
-      <tags>
-        <tag>cream△</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL ASMR】 それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～</title>
-    <url>/posts/3f87dadf/</url>
-    <content><![CDATA[<p><img src="/img/RJ438746(1).jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>俳優の空木遥は、専属スタイリストの都川湊と本番なしという契約の元、交際している。<br>しかし、空木は人肌恋しい性質で、浮気を繰り返していた。<br>あることをきっかけに、都川を大切にしたいという気持ちに気付いた空木は、『もう浮気はしない』と宣言。<br>しかし……やはり浮気癖は治らず。<br>再び浮気をしてしまい泣きながら謝る空木に、都川は天使のように微笑む。</p>
-<p>大丈夫だよ、もう罪悪感で苦しまなくていいように<br>誰よりもオンナノコにしてあげるからね」</p>
-<p>「え………!?」</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/gdxnCArL#oFpaYQ-YhnN3xhRq-4Ml3t0uUQnP3hWICWtdGzP2Vw0">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>ハニーブーブー</tag>
-        <tag>mp3</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert Siglus Engine scripts for translations (Tsumi naru Rasen no Ori -Whispers of Iscariot-)</title>
-    <url>/posts/413dc002/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><p><a href="https://github.com/yanhua0518/GALgameScriptTools/">Siglus Tools</a></p>
-</li>
-<li><p><a href="https://github.com/xmoezzz/SiglusExtract/">SiglusExtract</a></p>
-</li>
-<li><p><a href="https://github.com/marcussacana/SiglusSceneManager/releases/">SiglusPatcher</a></p>
-</li>
-</ol>
-<h2 id="Extracting-Scene-pck"><a href="#Extracting-Scene-pck" class="headerlink" title="Extracting Scene.pck"></a>Extracting Scene.pck</h2><p>Open SiglusTools and select the Scene.pck file and output folder. Keep the Decryption Key on “Try to find key when working on Scene”. </p>
-<h2 id="Converting-ss-scripts-into-text-files-or-xlsx"><a href="#Converting-ss-scripts-into-text-files-or-xlsx" class="headerlink" title="Converting .ss scripts into text files or xlsx"></a>Converting .ss scripts into text files or xlsx</h2><p>Go to “Dump ss”, select the folder containing the extracted .ss and the output folder.</p>
-<h2 id="Re-inserting-text-files-or-xlsx-back-into-ss-scripts"><a href="#Re-inserting-text-files-or-xlsx-back-into-ss-scripts" class="headerlink" title="Re-inserting text files or xlsx back into .ss scripts"></a>Re-inserting text files or xlsx back into .ss scripts</h2><p>Go to “Pack ss” and select your original .ss folder, your edited .txt or xlsx folder, and the output folder.</p>
-<h2 id="Repacking-Scene-pck"><a href="#Repacking-Scene-pck" class="headerlink" title="Repacking Scene.pck"></a>Repacking Scene.pck</h2><p>Go to “Pack Scene” and select the original Scene.pck file, your edited .ss folder, and the output folder.</p>
-<h2 id="Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher"><a href="#Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher" class="headerlink" title="(Optional) Siglus Engine word-wrapping with SiglusPatcher"></a>(Optional) Siglus Engine word-wrapping with SiglusPatcher</h2><p>Put the files inside SiglusPatcher.zip into your game directory, open the directory in Command Prompt and do:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SiglusPatcher.exe -WordWrap SiglusEngine.exe</span><br></pre></td></tr></table></figure>
-<p>Pick any version, and it should (hopefully) work.</p>
-<h2 id="Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract"><a href="#Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract" class="headerlink" title="Alternative way of unpacking and re-packing Scene.pck using SiglusExtract"></a>Alternative way of unpacking and re-packing Scene.pck using SiglusExtract</h2><p>Put SiglusExtract.exe and SiglusExtract.dll into your game directory, drag the exectuable into SiglusExtract.exe or double click on SiglusExtract.exe. Drag Scene.pck into the SiglusExtract.exe window to unpack. To re-pack go to “Repack Scene.pck” and select the folder with your edited .ss files and do “Do Pack!”<br><img src="/img/SiglusEngine_6FSDFCFGac.png"></p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Spray</tag>
-        <tag>Tsumi naru Rasen no Ori -Whispers of Iscariot-</tag>
       </tags>
   </entry>
   <entry>
@@ -566,6 +462,110 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
+    <title>【BL Game】 powdergray</title>
+    <url>/posts/c1d31f55/</url>
+    <content><![CDATA[<p><img src="/img/twitter%E3%83%98%E3%83%83%E3%83%80%E3%83%BC1500-500.png"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : パウダーグレイ&#x2F;powdergray<br>Developer : cream△<br>Play time: Short<br>VNDB: v27185<br>Engine: Tyranoscript</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>Suffering from a severe heart condition, Satomi Kubodaira’s life is prolonged<br>by a combination of medical progress and miracles…<br>But he receives the news that he will die by the age of 24.</p>
+<p>He starts living with childhood friend Fumiyo Nukui to spend the days left to him…<br>But one day he becomes lost in an unfamiliar part of town.<br>In the midst of his helplessness, he witnesses a murder.</p>
+<p>Cornered by the lust murderer Some Fujiwara,<br>Satomi is suddenly on the receiving end of a confession of love…</p>
+<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
+  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
+    <span class="gallery-data">[{"url":"https://t.vndb.org/sf/95/155595.jpg","alt":""},{"url":"https://t.vndb.org/sf/97/155597.jpg","alt":""},{"url":"https://t.vndb.org/sf/98/155598.jpg","alt":""},{"url":"https://t.vndb.org/sf/99/155599.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>Load More</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/EVQSSQDb#XQNumsduXgH1nA0PUeX276IOVChJudsyS66UYyXDAVA">MEGA</a></b>
+</p>
+
+
+<p align="center">
+<b><a href="https://www.mediafire.com/file/7b19mnlxifuei41/powergray.rar/file">Mediafire</a></b>
+</p>
+
+]]></content>
+      <categories>
+        <category>BL Games</category>
+      </categories>
+      <tags>
+        <tag>cream△</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert Macromedia Director scripts for translations (Akai Yoru, Hoshi no Sasayaki o Kike, Boku no Kareshi wa Juliet)</title>
+    <url>/posts/dc0a119c/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
+</li>
+<li><p><a href="https://archive.org/details/macromediadirector8">Macromedia Director</a></p>
+</li>
+</ol>
+<h2 id="Extracting-cxt"><a href="#Extracting-cxt" class="headerlink" title="Extracting .cxt"></a>Extracting .cxt</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder, then open arc_conv.exe and select the .cxt file to extract it. The scripts are the text files.</p>
+<h2 id="Repacking-cxt-or-cst-untested"><a href="#Repacking-cxt-or-cst-untested" class="headerlink" title="Repacking .cxt or .cst (untested)"></a>Repacking .cxt or .cst (untested)</h2><p>Go to File &gt; Import, drag the files into the “Cast” window, go to File &gt; Save As and choose “Cast File”. In theory, repacking it just as a .cst file should work fine.</p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Moon Parrot</tag>
+        <tag>Akai Yoru, Hoshi no Sasayaki o Kike</tag>
+        <tag>SandalDash</tag>
+        <tag>Boku no Kareshi wa Juliet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert Siglus Engine scripts for translations (Tsumi naru Rasen no Ori -Whispers of Iscariot-)</title>
+    <url>/posts/413dc002/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/yanhua0518/GALgameScriptTools/">Siglus Tools</a></p>
+</li>
+<li><p><a href="https://github.com/xmoezzz/SiglusExtract/">SiglusExtract</a></p>
+</li>
+<li><p><a href="https://github.com/marcussacana/SiglusSceneManager/releases/">SiglusPatcher</a></p>
+</li>
+</ol>
+<h2 id="Extracting-Scene-pck"><a href="#Extracting-Scene-pck" class="headerlink" title="Extracting Scene.pck"></a>Extracting Scene.pck</h2><p>Open SiglusTools and select the Scene.pck file and output folder. Keep the Decryption Key on “Try to find key when working on Scene”. </p>
+<h2 id="Converting-ss-scripts-into-text-files-or-xlsx"><a href="#Converting-ss-scripts-into-text-files-or-xlsx" class="headerlink" title="Converting .ss scripts into text files or xlsx"></a>Converting .ss scripts into text files or xlsx</h2><p>Go to “Dump ss”, select the folder containing the extracted .ss and the output folder.</p>
+<h2 id="Re-inserting-text-files-or-xlsx-back-into-ss-scripts"><a href="#Re-inserting-text-files-or-xlsx-back-into-ss-scripts" class="headerlink" title="Re-inserting text files or xlsx back into .ss scripts"></a>Re-inserting text files or xlsx back into .ss scripts</h2><p>Go to “Pack ss” and select your original .ss folder, your edited .txt or xlsx folder, and the output folder.</p>
+<h2 id="Repacking-Scene-pck"><a href="#Repacking-Scene-pck" class="headerlink" title="Repacking Scene.pck"></a>Repacking Scene.pck</h2><p>Go to “Pack Scene” and select the original Scene.pck file, your edited .ss folder, and the output folder.</p>
+<h2 id="Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher"><a href="#Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher" class="headerlink" title="(Optional) Siglus Engine word-wrapping with SiglusPatcher"></a>(Optional) Siglus Engine word-wrapping with SiglusPatcher</h2><p>Put the files inside SiglusPatcher.zip into your game directory, open the directory in Command Prompt and do:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SiglusPatcher.exe -WordWrap SiglusEngine.exe</span><br></pre></td></tr></table></figure>
+<p>Pick any version, and it should (hopefully) work.</p>
+<h2 id="Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract"><a href="#Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract" class="headerlink" title="Alternative way of unpacking and re-packing Scene.pck using SiglusExtract"></a>Alternative way of unpacking and re-packing Scene.pck using SiglusExtract</h2><p>Put SiglusExtract.exe and SiglusExtract.dll into your game directory, drag the exectuable into SiglusExtract.exe or double click on SiglusExtract.exe. Drag Scene.pck into the SiglusExtract.exe window to unpack. To re-pack go to “Repack Scene.pck” and select the folder with your edited .ss files and do “Do Pack!”<br><img src="/img/SiglusEngine_6FSDFCFGac.png"></p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Spray</tag>
+        <tag>Tsumi naru Rasen no Ori -Whispers of Iscariot-</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～</title>
+    <url>/posts/3f87dadf/</url>
+    <content><![CDATA[<p><img src="/img/RJ438746(1).jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>俳優の空木遥は、専属スタイリストの都川湊と本番なしという契約の元、交際している。<br>しかし、空木は人肌恋しい性質で、浮気を繰り返していた。<br>あることをきっかけに、都川を大切にしたいという気持ちに気付いた空木は、『もう浮気はしない』と宣言。<br>しかし……やはり浮気癖は治らず。<br>再び浮気をしてしまい泣きながら謝る空木に、都川は天使のように微笑む。</p>
+<p>大丈夫だよ、もう罪悪感で苦しまなくていいように<br>誰よりもオンナノコにしてあげるからね」</p>
+<p>「え………!?」</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/gdxnCArL#oFpaYQ-YhnN3xhRq-4Ml3t0uUQnP3hWICWtdGzP2Vw0">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>ハニーブーブー</tag>
+        <tag>mp3</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【BL ASMR】 性奴○お披露目会</title>
     <url>/posts/a0feffba/</url>
     <content><![CDATA[<p><img src="/img/189712.jpg"></p>
@@ -582,33 +582,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       <tags>
         <tag>mp3</tag>
         <tag>Carbohydrate</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL ASMR】 俺だけ見てなきゃ許さない!～ネガティブな恋人にお仕置き治療～</title>
-    <url>/posts/c935f7a3/</url>
-    <content><![CDATA[<p><img src="/img/RJ01103347_img_main.webp"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 俺だけ見てなきゃ許さない!～ネガティブな恋人にお仕置き治療～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>中性的な美人で空木遥の専属スタイリストである都川湊は、貞操観念の低い俳優・空木遥と交際中。<br>二人はラブラブな生活を送っているが、都川の心中は少しほの暗い。<br>ノンケである彼との永遠はありえないだろうと考えていた。</p>
-<p>そんなとき、空木が人気絶頂中の女優と手を繋いでいるところをパパラッチされてしまう!<br>BLドラマ主演が決まった空木は、都川の信頼を取り戻そうと必死になり、<br>「相手にデレデレしたりしないから!」と燃えていた。</p>
-<p>(ノンケなんだから男にデレデレしないのは大前提だろ……)と思っていることなど彼は知らない。<br>それでいい。そんな馬鹿なところが可愛い。</p>
-<p>仕事がうまくいっている姿を喜びつつ、<br>彼の才能を留めているんじゃないかと悩みまくる都川。能天気な空木。</p>
-<p>しかし、あるきっかけで都川が空木との関係がいつか終わるものだと<br>捉えていることを知った空木は怒り心頭で……!?　</p>
-<p>「今日は俺が湊にお仕置き治療するから!」<br>「…へ～～……それはそれは…」</p>
-<p>↓</p>
-<p>「……これに懲りたらもう悪い事するなよっ」<br>「…はーい……じゃあ、次は遥さんの番ですね」<br>「へっ?」</p>
-<p>「遥さんさあ……本気で自分がお仕置きできる側だと思ってた?」</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/5RA1ELCY#EqskVALtMjW17BfF0rGUJNgqapWVeG4U9E-QPWYRywY">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>ハニーブーブー</tag>
-        <tag>mp3</tag>
       </tags>
   </entry>
   <entry>
@@ -650,6 +623,33 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
 <h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
 <p align="center">
 <b><a href="https://mega.nz/file/kMJmSLKY#kNmgqlK5dOA4FX8FxSkXI96-lgwACaMmJtMQW7l6H0E">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>ハニーブーブー</tag>
+        <tag>mp3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 俺だけ見てなきゃ許さない!～ネガティブな恋人にお仕置き治療～</title>
+    <url>/posts/c935f7a3/</url>
+    <content><![CDATA[<p><img src="/img/RJ01103347_img_main.webp"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 俺だけ見てなきゃ許さない!～ネガティブな恋人にお仕置き治療～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>中性的な美人で空木遥の専属スタイリストである都川湊は、貞操観念の低い俳優・空木遥と交際中。<br>二人はラブラブな生活を送っているが、都川の心中は少しほの暗い。<br>ノンケである彼との永遠はありえないだろうと考えていた。</p>
+<p>そんなとき、空木が人気絶頂中の女優と手を繋いでいるところをパパラッチされてしまう!<br>BLドラマ主演が決まった空木は、都川の信頼を取り戻そうと必死になり、<br>「相手にデレデレしたりしないから!」と燃えていた。</p>
+<p>(ノンケなんだから男にデレデレしないのは大前提だろ……)と思っていることなど彼は知らない。<br>それでいい。そんな馬鹿なところが可愛い。</p>
+<p>仕事がうまくいっている姿を喜びつつ、<br>彼の才能を留めているんじゃないかと悩みまくる都川。能天気な空木。</p>
+<p>しかし、あるきっかけで都川が空木との関係がいつか終わるものだと<br>捉えていることを知った空木は怒り心頭で……!?　</p>
+<p>「今日は俺が湊にお仕置き治療するから!」<br>「…へ～～……それはそれは…」</p>
+<p>↓</p>
+<p>「……これに懲りたらもう悪い事するなよっ」<br>「…はーい……じゃあ、次は遥さんの番ですね」<br>「へっ?」</p>
+<p>「遥さんさあ……本気で自分がお仕置きできる側だと思ってた?」</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/5RA1ELCY#EqskVALtMjW17BfF0rGUJNgqapWVeG4U9E-QPWYRywY">MEGA</a></b>
 </p>
 ]]></content>
       <categories>
