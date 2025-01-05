@@ -1,0 +1,61 @@
+}
+.swiper-container {
+    margin-bottom: 20px; 
+}
+
+.category-bar {
+    margin-top: 20px;
+}
+
+#aside-content > .card-widget.card-info::before {
+  background: url(/img/Land_of_Illusion_Hong_Lu.png) !important;
+  background-repeat: no-repeat !important;
+  background-attachment: inherit !important;
+  background-size: 190% !important;  
+  background-position: -85px center !important;  
+}
+a[href="/posts/19e3d86a/"] {
+    height: 198% !important;
+}
+a[href="/posts/c1d31f55/"] {
+    height: 250% !important;
+}
+a[href="/posts/b014d67c/"] {
+    height: 125% !important;
+}
+a[href="/posts/8becf1fa/"] {
+    height: 150% !important;
+}
+a[href="/posts/dc0a119c/"] {
+    height: 150% !important;
+}
+a[href="/posts/413dc002/"] {
+    height: 130% !important;
+}
+a[href="/posts/bc51191d/"] {
+    height: 135% !important;
+}
+a[href="/posts/b5c73c87/"] {
+    height: 125% !important;
+}
+#category .article-sort-item-img {
+    height: 80px !important;
+}
+#archive .article-sort-item-img {
+    height: 80px !important;
+}
+#tag .article-sort-item-img {
+    height: 80px !important;
+}
+#tag .article-sort-item-img {
+    height: 80px !important;
+}
+#body-wrap .error-box .aside-list .aside-list-item .thumbnail {
+	height: 200px !important;
+}
+#aside-content .card-widget .author-info__bottom-group .author-info__desc {
+  opacity: 0.8 !important;
+}
+#aside-content .aside-list > .aside-list-item .thumbnail {
+  height: 4.2em !important;
+}
