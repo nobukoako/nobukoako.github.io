@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【BL ASMR】 路地裏の吸血女装男子朝阳-チャオヤン-</title>
-    <url>/posts/90c4c3af/</url>
-    <content><![CDATA[<p><img src="/img/1050281.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 路地裏の吸血女装男子朝阳-チャオヤン-<br>Developer : 夏八木瑠一<br>Character Voice: 天羽くらげ<br>Format: wav</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p><img src="https://img.dlsite.jp/modpub/images2/parts/RJ01051000/RJ01050281/f33cd8250fe8fc3c35bc2ed17a6e0d8f.jpg"></p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/0V4SADbK#uJ-cDGOLUW7tZkVbOMXBZlpWBjDdSs-2WyXaaWxEEjM">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>夏八木瑠一</tag>
-        <tag>wav</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【BL ASMR】 つよ×2淫魔くんわからせちゃんねるっ!古参ファンの取締官と公開発情配信H</title>
     <url>/posts/e1ee63d0/</url>
     <content><![CDATA[<p><img src="/img/RJ01080645_img_main.webp"></p>
@@ -34,8 +15,27 @@
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>wav</tag>
         <tag>cyan</tag>
+        <tag>wav</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 路地裏の吸血女装男子朝阳-チャオヤン-</title>
+    <url>/posts/90c4c3af/</url>
+    <content><![CDATA[<p><img src="/img/1050281.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 路地裏の吸血女装男子朝阳-チャオヤン-<br>Developer : 夏八木瑠一<br>Character Voice: 天羽くらげ<br>Format: wav</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p><img src="https://img.dlsite.jp/modpub/images2/parts/RJ01051000/RJ01050281/f33cd8250fe8fc3c35bc2ed17a6e0d8f.jpg"></p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/0V4SADbK#uJ-cDGOLUW7tZkVbOMXBZlpWBjDdSs-2WyXaaWxEEjM">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>wav</tag>
+        <tag>夏八木瑠一</tag>
       </tags>
   </entry>
   <entry>
@@ -78,6 +78,29 @@
       <tags>
         <tag>wav</tag>
         <tag>somnium</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
+    <url>/posts/b5c73c87/</url>
+    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
+<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
+</li>
+<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
+</li>
+<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
+</li>
+</ol>
+<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
+<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
+<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Vivid Color</tag>
+        <tag>Nessa no Rakuen</tag>
       </tags>
   </entry>
   <entry>
@@ -162,29 +185,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
-    <url>/posts/b5c73c87/</url>
-    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
-<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
-</li>
-<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
-</li>
-<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
-</li>
-</ol>
-<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
-<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
-<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Vivid Color</tag>
-        <tag>Nessa no Rakuen</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【Tutorial】 How to extract, edit, and re-insert Emon engine scripts for translations (Ego to Koukai no Dilemma)</title>
     <url>/posts/ca51340e/</url>
     <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
@@ -207,25 +207,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
         <tag>Ego to Koukai no Dilemma</tag>
         <tag>Dilemma of Ego and Regret</tag>
         <tag>EgoDille</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert GameSystem&quot; engine scripts for translations (Artificial Mermaid -Silver Chaos II-, Hanamachi Monogatari)</title>
-    <url>/posts/bc51191d/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><a href="https://github.com/amayra/arc_conv">arc_conv</a></li>
-</ol>
-<h2 id="Unpacking-cmp"><a href="#Unpacking-cmp" class="headerlink" title="Unpacking .cmp"></a>Unpacking .cmp</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder then open arc_conv.exe to extract the SCRIPT.cmp file. The scripts are simple XML files.</p>
-<h2 id="Repacking-cmp"><a href="#Repacking-cmp" class="headerlink" title="Repacking .cmp"></a>Repacking .cmp</h2><p>Put the folder containing your edited XML files inside the arc_conv.exe directory then open cmd and type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack vivid [FOLDER NAME] SCRIPT</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Vivid Color</tag>
-        <tag>Artificial Mermaid -Silver Chaos II-</tag>
-        <tag>Silver Chaos 2</tag>
-        <tag>Hanamachi Monogatari</tag>
       </tags>
   </entry>
   <entry>
@@ -253,6 +234,25 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert GameSystem&quot; engine scripts for translations (Artificial Mermaid -Silver Chaos II-, Hanamachi Monogatari)</title>
+    <url>/posts/bc51191d/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><a href="https://github.com/amayra/arc_conv">arc_conv</a></li>
+</ol>
+<h2 id="Unpacking-cmp"><a href="#Unpacking-cmp" class="headerlink" title="Unpacking .cmp"></a>Unpacking .cmp</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder then open arc_conv.exe to extract the SCRIPT.cmp file. The scripts are simple XML files.</p>
+<h2 id="Repacking-cmp"><a href="#Repacking-cmp" class="headerlink" title="Repacking .cmp"></a>Repacking .cmp</h2><p>Put the folder containing your edited XML files inside the arc_conv.exe directory then open cmd and type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack vivid [FOLDER NAME] SCRIPT</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Vivid Color</tag>
+        <tag>Artificial Mermaid -Silver Chaos II-</tag>
+        <tag>Silver Chaos 2</tag>
+        <tag>Hanamachi Monogatari</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【BL Game】 Anata Nikki ~Euforia~</title>
     <url>/posts/1c4c88cd/</url>
     <content><![CDATA[<p><img src="/img/96575.jpg"></p>
@@ -277,37 +277,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </categories>
       <tags>
         <tag>Create Department Visual Works Co., Ltd.</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert YU-RIS engine scripts for translations (Narisokonai no Yosuga)</title>
-    <url>/posts/16572e88/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
-</li>
-<li><p><a href="https://github.com/arcusmaximus/VNTranslationTools">VNTextPatch</a></p>
-</li>
-<li><p><a href="https://github.com/MoonGoblinDev/BREYURISs">BREYURIS</a></p>
-</li>
-</ol>
-<h2 id="Unpacking-ysbin-ypf"><a href="#Unpacking-ysbin-ypf" class="headerlink" title="Unpacking ysbin.ypf"></a>Unpacking ysbin.ypf</h2><p>Unpack using GARBro, select the “Try to guess” encryption and extract the ysbin folder with the .ybn files inside.</p>
-<h2 id="Extracting-text-from-the-ybn-file"><a href="#Extracting-text-from-the-ybn-file" class="headerlink" title="Extracting text from the .ybn file"></a>Extracting text from the .ybn file</h2><p>Open powershell in the VNTextPatch’s directory and type “cmd”, press Enter, and then type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">VNTextPatch extractlocal [folder containing original .ybn files] [folder to output the .json files]</span><br></pre></td></tr></table></figure>
-<p><img src="/img/explorer_DJBYEm20JN.png"> <img src="/img/c4XaMeIUpI.png"></p>
-<h2 id="Reinserting-the-text-back-into-ybn"><a href="#Reinserting-the-text-back-into-ybn" class="headerlink" title="Reinserting the text back into .ybn"></a>Reinserting the text back into .ybn</h2><p>Open powershell in the VNTextPatch’s directory and type “cmd”, press Enter, and then type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">VNTextPatch insertlocal [folder containing the original .ybn files] [folder containing the .json files] [folder to receive the new translated .ybn files]</span><br></pre></td></tr></table></figure>
-<h2 id="Repacking-ysbin-ypf"><a href="#Repacking-ysbin-ypf" class="headerlink" title="Repacking ysbin.ypf"></a>Repacking ysbin.ypf</h2><div class="note info flat"><p>Keep in mind the folder structure should be ysbin &gt; ysbin &gt; (the .ybn files)</p>
-</div>
-<p>Put the original ysbin.ypf file and the folder containing your edited .ybn files inside the BREYURIS directory then open BREYURIS.exe. Type in “ysbin.ypf” in “YPF name” then click “YPF info”.</p>
-<p><img src="/img/BREYURIS_YlQ98MVSdR.png"><br>Type “ysbin” in “YBN’s Folder Name” after receiving the version, then click “YPF Archive”.</p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>noR+</tag>
-        <tag>Narisokonai no Yosuga</tag>
-        <tag>Nariyosu</tag>
       </tags>
   </entry>
   <entry>
@@ -350,6 +319,37 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert YU-RIS engine scripts for translations (Narisokonai no Yosuga)</title>
+    <url>/posts/16572e88/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
+</li>
+<li><p><a href="https://github.com/arcusmaximus/VNTranslationTools">VNTextPatch</a></p>
+</li>
+<li><p><a href="https://github.com/MoonGoblinDev/BREYURISs">BREYURIS</a></p>
+</li>
+</ol>
+<h2 id="Unpacking-ysbin-ypf"><a href="#Unpacking-ysbin-ypf" class="headerlink" title="Unpacking ysbin.ypf"></a>Unpacking ysbin.ypf</h2><p>Unpack using GARBro, select the “Try to guess” encryption and extract the ysbin folder with the .ybn files inside.</p>
+<h2 id="Extracting-text-from-the-ybn-file"><a href="#Extracting-text-from-the-ybn-file" class="headerlink" title="Extracting text from the .ybn file"></a>Extracting text from the .ybn file</h2><p>Open powershell in the VNTextPatch’s directory and type “cmd”, press Enter, and then type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">VNTextPatch extractlocal [folder containing original .ybn files] [folder to output the .json files]</span><br></pre></td></tr></table></figure>
+<p><img src="/img/explorer_DJBYEm20JN.png"> <img src="/img/c4XaMeIUpI.png"></p>
+<h2 id="Reinserting-the-text-back-into-ybn"><a href="#Reinserting-the-text-back-into-ybn" class="headerlink" title="Reinserting the text back into .ybn"></a>Reinserting the text back into .ybn</h2><p>Open powershell in the VNTextPatch’s directory and type “cmd”, press Enter, and then type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">VNTextPatch insertlocal [folder containing the original .ybn files] [folder containing the .json files] [folder to receive the new translated .ybn files]</span><br></pre></td></tr></table></figure>
+<h2 id="Repacking-ysbin-ypf"><a href="#Repacking-ysbin-ypf" class="headerlink" title="Repacking ysbin.ypf"></a>Repacking ysbin.ypf</h2><div class="note info flat"><p>Keep in mind the folder structure should be ysbin &gt; ysbin &gt; (the .ybn files)</p>
+</div>
+<p>Put the original ysbin.ypf file and the folder containing your edited .ybn files inside the BREYURIS directory then open BREYURIS.exe. Type in “ysbin.ypf” in “YPF name” then click “YPF info”.</p>
+<p><img src="/img/BREYURIS_YlQ98MVSdR.png"><br>Type “ysbin” in “YBN’s Folder Name” after receiving the version, then click “YPF Archive”.</p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>noR+</tag>
+        <tag>Narisokonai no Yosuga</tag>
+        <tag>Nariyosu</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Tutorial】 How to extract, edit, and re-insert Gswin/Gspack engine scripts for translations (Messiah)</title>
     <url>/posts/72f209ec/</url>
     <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
@@ -371,28 +371,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       <tags>
         <tag>CORE</tag>
         <tag>Messiah</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert Macromedia Director scripts for translations (Akai Yoru, Hoshi no Sasayaki o Kike, Boku no Kareshi wa Juliet)</title>
-    <url>/posts/dc0a119c/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
-</li>
-<li><p><a href="https://archive.org/details/macromediadirector8">Macromedia Director</a></p>
-</li>
-</ol>
-<h2 id="Extracting-cxt"><a href="#Extracting-cxt" class="headerlink" title="Extracting .cxt"></a>Extracting .cxt</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder, then open arc_conv.exe and select the .cxt file to extract it. The scripts are the text files.</p>
-<h2 id="Repacking-cxt-or-cst-untested"><a href="#Repacking-cxt-or-cst-untested" class="headerlink" title="Repacking .cxt or .cst (untested)"></a>Repacking .cxt or .cst (untested)</h2><p>Go to File &gt; Import, drag the files into the “Cast” window, go to File &gt; Save As and choose “Cast File”. In theory, repacking it just as a .cst file should work fine.</p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Moon Parrot</tag>
-        <tag>Akai Yoru, Hoshi no Sasayaki o Kike</tag>
-        <tag>SandalDash</tag>
-        <tag>Boku no Kareshi wa Juliet</tag>
       </tags>
   </entry>
   <entry>
@@ -434,6 +412,39 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </categories>
       <tags>
         <tag>Gintou</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL Game】 powdergray</title>
+    <url>/posts/c1d31f55/</url>
+    <content><![CDATA[<p><img src="/img/twitter%E3%83%98%E3%83%83%E3%83%80%E3%83%BC1500-500.png"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : パウダーグレイ&#x2F;powdergray<br>Developer : cream△<br>Play time: Short<br>VNDB: v27185<br>Engine: Tyranoscript</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>Suffering from a severe heart condition, Satomi Kubodaira’s life is prolonged<br>by a combination of medical progress and miracles…<br>But he receives the news that he will die by the age of 24.</p>
+<p>He starts living with childhood friend Fumiyo Nukui to spend the days left to him…<br>But one day he becomes lost in an unfamiliar part of town.<br>In the midst of his helplessness, he witnesses a murder.</p>
+<p>Cornered by the lust murderer Some Fujiwara,<br>Satomi is suddenly on the receiving end of a confession of love…</p>
+<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
+  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
+    <span class="gallery-data">[{"url":"https://t.vndb.org/sf/95/155595.jpg","alt":""},{"url":"https://t.vndb.org/sf/97/155597.jpg","alt":""},{"url":"https://t.vndb.org/sf/98/155598.jpg","alt":""},{"url":"https://t.vndb.org/sf/99/155599.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>Load More</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/EVQSSQDb#XQNumsduXgH1nA0PUeX276IOVChJudsyS66UYyXDAVA">MEGA</a></b>
+</p>
+
+
+<p align="center">
+<b><a href="https://www.mediafire.com/file/7b19mnlxifuei41/powergray.rar/file">Mediafire</a></b>
+</p>
+
+]]></content>
+      <categories>
+        <category>BL Games</category>
+      </categories>
+      <tags>
+        <tag>cream△</tag>
       </tags>
   </entry>
   <entry>
@@ -484,36 +495,65 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【BL Game】 powdergray</title>
-    <url>/posts/c1d31f55/</url>
-    <content><![CDATA[<p><img src="/img/twitter%E3%83%98%E3%83%83%E3%83%80%E3%83%BC1500-500.png"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : パウダーグレイ&#x2F;powdergray<br>Developer : cream△<br>Play time: Short<br>VNDB: v27185<br>Engine: Tyranoscript</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>Suffering from a severe heart condition, Satomi Kubodaira’s life is prolonged<br>by a combination of medical progress and miracles…<br>But he receives the news that he will die by the age of 24.</p>
-<p>He starts living with childhood friend Fumiyo Nukui to spend the days left to him…<br>But one day he becomes lost in an unfamiliar part of town.<br>In the midst of his helplessness, he witnesses a murder.</p>
-<p>Cornered by the lust murderer Some Fujiwara,<br>Satomi is suddenly on the receiving end of a confession of love…</p>
-<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
-  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
-    <span class="gallery-data">[{"url":"https://t.vndb.org/sf/95/155595.jpg","alt":""},{"url":"https://t.vndb.org/sf/97/155597.jpg","alt":""},{"url":"https://t.vndb.org/sf/98/155598.jpg","alt":""},{"url":"https://t.vndb.org/sf/99/155599.jpg","alt":""}]</span>
-  </div><button class="gallery-load-more" style="opacity:0">
-  <span>Load More</span>
-  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
-  </button></div>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/EVQSSQDb#XQNumsduXgH1nA0PUeX276IOVChJudsyS66UYyXDAVA">MEGA</a></b>
-</p>
-
-
-<p align="center">
-<b><a href="https://www.mediafire.com/file/7b19mnlxifuei41/powergray.rar/file">Mediafire</a></b>
-</p>
-
+    <title>【Tutorial】 How to extract, edit, and re-insert Macromedia Director scripts for translations (Akai Yoru, Hoshi no Sasayaki o Kike, Boku no Kareshi wa Juliet)</title>
+    <url>/posts/dc0a119c/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
+</li>
+<li><p><a href="https://archive.org/details/macromediadirector8">Macromedia Director</a></p>
+</li>
+</ol>
+<h2 id="Extracting-cxt"><a href="#Extracting-cxt" class="headerlink" title="Extracting .cxt"></a>Extracting .cxt</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder, then open arc_conv.exe and select the .cxt file to extract it. The scripts are the text files.</p>
+<h2 id="Repacking-cxt-or-cst-untested"><a href="#Repacking-cxt-or-cst-untested" class="headerlink" title="Repacking .cxt or .cst (untested)"></a>Repacking .cxt or .cst (untested)</h2><p>Go to File &gt; Import, drag the files into the “Cast” window, go to File &gt; Save As and choose “Cast File”. In theory, repacking it just as a .cst file should work fine.</p>
 ]]></content>
       <categories>
-        <category>BL Games</category>
+        <category>Tutorials</category>
       </categories>
       <tags>
-        <tag>cream△</tag>
+        <tag>Moon Parrot</tag>
+        <tag>Akai Yoru, Hoshi no Sasayaki o Kike</tag>
+        <tag>SandalDash</tag>
+        <tag>Boku no Kareshi wa Juliet</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～</title>
+    <url>/posts/3f87dadf/</url>
+    <content><![CDATA[<p><img src="/img/RJ438746(1).jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>俳優の空木遥は、専属スタイリストの都川湊と本番なしという契約の元、交際している。<br>しかし、空木は人肌恋しい性質で、浮気を繰り返していた。<br>あることをきっかけに、都川を大切にしたいという気持ちに気付いた空木は、『もう浮気はしない』と宣言。<br>しかし……やはり浮気癖は治らず。<br>再び浮気をしてしまい泣きながら謝る空木に、都川は天使のように微笑む。</p>
+<p>大丈夫だよ、もう罪悪感で苦しまなくていいように<br>誰よりもオンナノコにしてあげるからね」</p>
+<p>「え………!?」</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/gdxnCArL#oFpaYQ-YhnN3xhRq-4Ml3t0uUQnP3hWICWtdGzP2Vw0">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>ハニーブーブー</tag>
+        <tag>mp3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 性奴○お披露目会</title>
+    <url>/posts/a0feffba/</url>
+    <content><![CDATA[<p><img src="/img/189712.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 性奴○お披露目会<br>Developer : Carbohydrate<br>Character Voice: JOE<br>Format: MP3</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>ご主人様の性奴○になった晴(はる)くんの初めてのお披露目会――!<br>一人前の性奴○になったところを見せるために、必死でご奉仕します!</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/lcxRHAID#yDL_HpEKZozwAM8eDVRQ6pewfneDQZ0mxN8zUhTMh14">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>mp3</tag>
+        <tag>Carbohydrate</tag>
       </tags>
   </entry>
   <entry>
@@ -545,46 +585,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【BL ASMR】 性奴○お披露目会</title>
-    <url>/posts/a0feffba/</url>
-    <content><![CDATA[<p><img src="/img/189712.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 性奴○お披露目会<br>Developer : Carbohydrate<br>Character Voice: JOE<br>Format: MP3</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>ご主人様の性奴○になった晴(はる)くんの初めてのお披露目会――!<br>一人前の性奴○になったところを見せるために、必死でご奉仕します!</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/lcxRHAID#yDL_HpEKZozwAM8eDVRQ6pewfneDQZ0mxN8zUhTMh14">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>Carbohydrate</tag>
-        <tag>mp3</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL ASMR】 それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～</title>
-    <url>/posts/3f87dadf/</url>
-    <content><![CDATA[<p><img src="/img/RJ438746(1).jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>俳優の空木遥は、専属スタイリストの都川湊と本番なしという契約の元、交際している。<br>しかし、空木は人肌恋しい性質で、浮気を繰り返していた。<br>あることをきっかけに、都川を大切にしたいという気持ちに気付いた空木は、『もう浮気はしない』と宣言。<br>しかし……やはり浮気癖は治らず。<br>再び浮気をしてしまい泣きながら謝る空木に、都川は天使のように微笑む。</p>
-<p>大丈夫だよ、もう罪悪感で苦しまなくていいように<br>誰よりもオンナノコにしてあげるからね」</p>
-<p>「え………!?」</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/gdxnCArL#oFpaYQ-YhnN3xhRq-4Ml3t0uUQnP3hWICWtdGzP2Vw0">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>mp3</tag>
-        <tag>ハニーブーブー</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【BL ASMR】 俺だけ見てなきゃ許さない!～ネガティブな恋人にお仕置き治療～</title>
     <url>/posts/c935f7a3/</url>
     <content><![CDATA[<p><img src="/img/RJ01103347_img_main.webp"></p>
@@ -607,8 +607,8 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>mp3</tag>
         <tag>ハニーブーブー</tag>
+        <tag>mp3</tag>
       </tags>
   </entry>
   <entry>
@@ -656,8 +656,8 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>mp3</tag>
         <tag>ハニーブーブー</tag>
+        <tag>mp3</tag>
       </tags>
   </entry>
   <entry>
