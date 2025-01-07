@@ -59,3 +59,5 @@ a[href="/posts/b5c73c87/"] {
 #aside-content .aside-list > .aside-list-item .thumbnail {
   height: 4.2em !important;
 }
+#menus > div.menus_items > div > a {
+  letter-spacing: 0.1rem !important;
