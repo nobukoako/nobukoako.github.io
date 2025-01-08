@@ -61,3 +61,7 @@ a[href="/posts/b5c73c87/"] {
 }
 #menus > div.menus_items > div > a {
   letter-spacing: 0.1rem !important;
+}
+#pagination .prev-post a, #pagination .next-post a {
+  height: 150px !important;
+}
