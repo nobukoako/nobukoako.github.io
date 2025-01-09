@@ -65,3 +65,5 @@ a[href="/posts/b5c73c87/"] {
 #pagination .prev-post a, #pagination .next-post a {
   height: 150px !important;
 }
+.comment-randomInfo { display: none !important; }
+}
