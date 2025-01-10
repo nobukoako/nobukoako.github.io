@@ -1,44 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>【BL ASMR】 つよ×2淫魔くんわからせちゃんねるっ!古参ファンの取締官と公開発情配信H</title>
-    <url>/posts/e1ee63d0/</url>
-    <content><![CDATA[<p><img src="/img/RJ01080645_img_main.webp"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : つよ×2淫魔くんわからせちゃんねるっ!古参ファンの取締官と公開発情配信H<br>Developer : cyan<br>Character Voice: 谷根千<br>Format: wav</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>配信で人間をヤりたい放題しているつよつよ淫魔くんアル(24)。<br>ある日、突然やって来た古参ファンの魔族取締官、リスナーネーム「センセイ」にチャンネルを<br>乗っ取られてしまった。<br>イキるアルに課せられた刑は、「反省するまでカメラの前で公開わからせH配信」!?<br>リスナーのリクエストに答えたり、凸待ちでリスナー(モブ)達にヤられたり、そして、ついに「センセイ」と……!?<br>つよ×2淫魔くんわからせちゃんねるっ、配信スタート!</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/EUAS2YxI#TFQAlwpvyy8GDzX9FrIFf0SGGlCaqBz8v6MkkGwiviw">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>cyan</tag>
-        <tag>wav</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL ASMR】 BL責め側ボイス 起きたら即挿入</title>
-    <url>/posts/2d5a9a16/</url>
-    <content><![CDATA[<p><img src="/img/RJ01128166_img_main.webp"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : BL責め側ボイス 起きたら即挿入<br>Developer : 新騎の夢語り<br>Character Voice: 秋月勇人<br>Format: wav</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>僕が起きたら何度も挿入&amp;中出しを繰り返すピストンVoice!!<br>※BL責め側のみ!!</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/URhkzKxQ#5Y7OUdEKGrTROxpjjbIa_w_gMKSBy5wA3C4m4v6H4Dc">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>wav</tag>
-        <tag>新騎の夢語り</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【BL ASMR】 路地裏の吸血女装男子朝阳-チャオヤン-</title>
     <url>/posts/90c4c3af/</url>
     <content><![CDATA[<p><img src="/img/1050281.jpg"></p>
@@ -53,8 +15,8 @@
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>wav</tag>
         <tag>夏八木瑠一</tag>
+        <tag>wav</tag>
       </tags>
   </entry>
   <entry>
@@ -80,26 +42,41 @@
       </tags>
   </entry>
   <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
-    <url>/posts/b5c73c87/</url>
-    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
-<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
-</li>
-<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
-</li>
-<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
-</li>
-</ol>
-<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
-<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
-<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
+    <title>【BL ASMR】 つよ×2淫魔くんわからせちゃんねるっ!古参ファンの取締官と公開発情配信H</title>
+    <url>/posts/e1ee63d0/</url>
+    <content><![CDATA[<p><img src="/img/RJ01080645_img_main.webp"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : つよ×2淫魔くんわからせちゃんねるっ!古参ファンの取締官と公開発情配信H<br>Developer : cyan<br>Character Voice: 谷根千<br>Format: wav</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>配信で人間をヤりたい放題しているつよつよ淫魔くんアル(24)。<br>ある日、突然やって来た古参ファンの魔族取締官、リスナーネーム「センセイ」にチャンネルを<br>乗っ取られてしまった。<br>イキるアルに課せられた刑は、「反省するまでカメラの前で公開わからせH配信」!?<br>リスナーのリクエストに答えたり、凸待ちでリスナー(モブ)達にヤられたり、そして、ついに「センセイ」と……!?<br>つよ×2淫魔くんわからせちゃんねるっ、配信スタート!</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/EUAS2YxI#TFQAlwpvyy8GDzX9FrIFf0SGGlCaqBz8v6MkkGwiviw">MEGA</a></b>
+</p>
+]]></content>
       <categories>
-        <category>Tutorials</category>
+        <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>Vivid Color</tag>
-        <tag>Nessa no Rakuen</tag>
+        <tag>wav</tag>
+        <tag>cyan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 BL責め側ボイス 起きたら即挿入</title>
+    <url>/posts/2d5a9a16/</url>
+    <content><![CDATA[<p><img src="/img/RJ01128166_img_main.webp"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : BL責め側ボイス 起きたら即挿入<br>Developer : 新騎の夢語り<br>Character Voice: 秋月勇人<br>Format: wav</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>僕が起きたら何度も挿入&amp;中出しを繰り返すピストンVoice!!<br>※BL責め側のみ!!</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/URhkzKxQ#5Y7OUdEKGrTROxpjjbIa_w_gMKSBy5wA3C4m4v6H4Dc">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>wav</tag>
+        <tag>新騎の夢語り</tag>
       </tags>
   </entry>
   <entry>
@@ -185,25 +162,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert GameSystem&quot; engine scripts for translations (Artificial Mermaid -Silver Chaos II-, Hanamachi Monogatari)</title>
-    <url>/posts/bc51191d/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><a href="https://github.com/amayra/arc_conv">arc_conv</a></li>
-</ol>
-<h2 id="Unpacking-cmp"><a href="#Unpacking-cmp" class="headerlink" title="Unpacking .cmp"></a>Unpacking .cmp</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder then open arc_conv.exe to extract the SCRIPT.cmp file. The scripts are simple XML files.</p>
-<h2 id="Repacking-cmp"><a href="#Repacking-cmp" class="headerlink" title="Repacking .cmp"></a>Repacking .cmp</h2><p>Put the folder containing your edited XML files inside the arc_conv.exe directory then open cmd and type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack vivid [FOLDER NAME] SCRIPT</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Vivid Color</tag>
-        <tag>Artificial Mermaid -Silver Chaos II-</tag>
-        <tag>Silver Chaos 2</tag>
-        <tag>Hanamachi Monogatari</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【Tutorial】 How to extract, edit, and re-insert Emon engine scripts for translations (Ego to Koukai no Dilemma)</title>
     <url>/posts/ca51340e/</url>
     <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
@@ -226,6 +184,48 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
         <tag>Ego to Koukai no Dilemma</tag>
         <tag>Dilemma of Ego and Regret</tag>
         <tag>EgoDille</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert GameSystem&quot; engine scripts for translations (Artificial Mermaid -Silver Chaos II-, Hanamachi Monogatari)</title>
+    <url>/posts/bc51191d/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><a href="https://github.com/amayra/arc_conv">arc_conv</a></li>
+</ol>
+<h2 id="Unpacking-cmp"><a href="#Unpacking-cmp" class="headerlink" title="Unpacking .cmp"></a>Unpacking .cmp</h2><p>Run build.bat to create the arc_conv.exe file in the “arc_conv” folder then open arc_conv.exe to extract the SCRIPT.cmp file. The scripts are simple XML files.</p>
+<h2 id="Repacking-cmp"><a href="#Repacking-cmp" class="headerlink" title="Repacking .cmp"></a>Repacking .cmp</h2><p>Put the folder containing your edited XML files inside the arc_conv.exe directory then open cmd and type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack vivid [FOLDER NAME] SCRIPT</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Vivid Color</tag>
+        <tag>Artificial Mermaid -Silver Chaos II-</tag>
+        <tag>Silver Chaos 2</tag>
+        <tag>Hanamachi Monogatari</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
+    <url>/posts/b5c73c87/</url>
+    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
+<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
+</li>
+<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
+</li>
+<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
+</li>
+</ol>
+<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
+<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
+<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Vivid Color</tag>
+        <tag>Nessa no Rakuen</tag>
       </tags>
   </entry>
   <entry>
@@ -308,45 +308,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </categories>
       <tags>
         <tag>Create Department Visual Works Co., Ltd.</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【BL Game】 Haiiro no Arcadia/Gray Arcadia</title>
-    <url>/posts/19e3d86a/</url>
-    <content><![CDATA[<p><img src="/img/resize_image.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 灰色のアルカディア&#x2F;Haiiro no Arcadia&#x2F;Gray Arcadia<br>Developer : Peaky<br>Play time: Long<br>VNDB: v37469<br>Engine: DDsystem</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>The story focuses on protagonist Tamaki, who’s a transfer student at an all-boys boarding school. This school is not just any boarding school and most of the students are children of elites, such as business leaders and managers of big companies. Located on top of a mountain surrounded by nature, it was built based on the idea of ‘’creating the best environment in which students can focus on studying’’.</p>
-<p>Due to the education policy that prioritizes studying, any form of entertainment is strictly prohibited. Game consoles, televisions, music players and mobile phones cannot be used inside the school. Going outside is also forbidden and even going home during the summer vacation is not allowed.</p>
-<p>Tamaki becomes friends with three students, however their behavior makes him uncomfortable.</p>
-<p>‘’Who really is ‘honest’?’’<br>‘’There is something strange about this school’’</p>
-<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
-  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
-    <span class="gallery-data">[{"url":"https://t.vndb.org/sf/10/196310.jpg","alt":""},{"url":"https://t.vndb.org/sf/11/196311.jpg","alt":""},{"url":"https://t.vndb.org/sf/12/196312.jpg","alt":""},{"url":"https://t.vndb.org/sf/13/196313.jpg","alt":""}]</span>
-  </div><button class="gallery-load-more" style="opacity:0">
-  <span>Load More</span>
-  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
-  </button></div>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b>MEGA</b>
-
-
-<a href="https://mega.nz/file/cRQQzTZA#s5imATtThRJXSDR3nCkwN26Vmcnnaw-o6J114GfjsW4">Part 1</a> | <a href="https://mega.nz/file/VZxlHQ6C#HycJ6RhMax4m7hQlFSBmh3N_GTP1IZQru0RRUlhlz-Y">Part 2</a> | <a href="https://mega.nz/file/RQZBmb4R#Mf2F3rOcaLKyuguW_m6n8b3v8j6R1YzSnMF-dyBC3qA">Part 3</a> | <a href="https://mega.nz/file/NFRz2Z7D#H2O1G3TBjF83TK5k5GnO25Urgv0LWxgZVfl6blnw4Vk">Part 4</a>
-</p>
-
-
-<p align="center">
-<b>Mediafire</b>
-
-<a href="https://www.mediafire.com/file/0pck4biws54ov3u/Haiiro_no_Arcadia.part1.rar/file">Part 1</a> | <a href="https://www.mediafire.com/file/ryu3s66ju4qlwmg/Haiiro_no_Arcadia.part2.rar/file">Part 2</a> | <a href="https://www.mediafire.com/file/wtfgam4wco1awym/Haiiro_no_Arcadia.part3.rar/file">Part 3</a> | <a href="https://www.mediafire.com/file/fyp4jky3snwlvnn/Haiiro_no_Arcadia.part4.rar/file">Part 4</a>
-</p>
-
-]]></content>
-      <categories>
-        <category>BL Games</category>
-      </categories>
-      <tags>
-        <tag>Peaky</tag>
       </tags>
   </entry>
   <entry>
@@ -437,6 +398,45 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </categories>
       <tags>
         <tag>Gintou</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL Game】 Haiiro no Arcadia/Gray Arcadia</title>
+    <url>/posts/19e3d86a/</url>
+    <content><![CDATA[<p><img src="/img/resize_image.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 灰色のアルカディア&#x2F;Haiiro no Arcadia&#x2F;Gray Arcadia<br>Developer : Peaky<br>Play time: Long<br>VNDB: v37469<br>Engine: DDsystem</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>The story focuses on protagonist Tamaki, who’s a transfer student at an all-boys boarding school. This school is not just any boarding school and most of the students are children of elites, such as business leaders and managers of big companies. Located on top of a mountain surrounded by nature, it was built based on the idea of ‘’creating the best environment in which students can focus on studying’’.</p>
+<p>Due to the education policy that prioritizes studying, any form of entertainment is strictly prohibited. Game consoles, televisions, music players and mobile phones cannot be used inside the school. Going outside is also forbidden and even going home during the summer vacation is not allowed.</p>
+<p>Tamaki becomes friends with three students, however their behavior makes him uncomfortable.</p>
+<p>‘’Who really is ‘honest’?’’<br>‘’There is something strange about this school’’</p>
+<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
+  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
+    <span class="gallery-data">[{"url":"https://t.vndb.org/sf/10/196310.jpg","alt":""},{"url":"https://t.vndb.org/sf/11/196311.jpg","alt":""},{"url":"https://t.vndb.org/sf/12/196312.jpg","alt":""},{"url":"https://t.vndb.org/sf/13/196313.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>Load More</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b>MEGA</b>
+
+
+<a href="https://mega.nz/file/cRQQzTZA#s5imATtThRJXSDR3nCkwN26Vmcnnaw-o6J114GfjsW4">Part 1</a> | <a href="https://mega.nz/file/VZxlHQ6C#HycJ6RhMax4m7hQlFSBmh3N_GTP1IZQru0RRUlhlz-Y">Part 2</a> | <a href="https://mega.nz/file/RQZBmb4R#Mf2F3rOcaLKyuguW_m6n8b3v8j6R1YzSnMF-dyBC3qA">Part 3</a> | <a href="https://mega.nz/file/NFRz2Z7D#H2O1G3TBjF83TK5k5GnO25Urgv0LWxgZVfl6blnw4Vk">Part 4</a>
+</p>
+
+
+<p align="center">
+<b>Mediafire</b>
+
+<a href="https://www.mediafire.com/file/0pck4biws54ov3u/Haiiro_no_Arcadia.part1.rar/file">Part 1</a> | <a href="https://www.mediafire.com/file/ryu3s66ju4qlwmg/Haiiro_no_Arcadia.part2.rar/file">Part 2</a> | <a href="https://www.mediafire.com/file/wtfgam4wco1awym/Haiiro_no_Arcadia.part3.rar/file">Part 3</a> | <a href="https://www.mediafire.com/file/fyp4jky3snwlvnn/Haiiro_no_Arcadia.part4.rar/file">Part 4</a>
+</p>
+
+]]></content>
+      <categories>
+        <category>BL Games</category>
+      </categories>
+      <tags>
+        <tag>Peaky</tag>
       </tags>
   </entry>
   <entry>
@@ -548,27 +548,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【BL ASMR】 それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～</title>
-    <url>/posts/3f87dadf/</url>
-    <content><![CDATA[<p><img src="/img/RJ438746(1).jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>俳優の空木遥は、専属スタイリストの都川湊と本番なしという契約の元、交際している。<br>しかし、空木は人肌恋しい性質で、浮気を繰り返していた。<br>あることをきっかけに、都川を大切にしたいという気持ちに気付いた空木は、『もう浮気はしない』と宣言。<br>しかし……やはり浮気癖は治らず。<br>再び浮気をしてしまい泣きながら謝る空木に、都川は天使のように微笑む。</p>
-<p>大丈夫だよ、もう罪悪感で苦しまなくていいように<br>誰よりもオンナノコにしてあげるからね」</p>
-<p>「え………!?」</p>
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/gdxnCArL#oFpaYQ-YhnN3xhRq-4Ml3t0uUQnP3hWICWtdGzP2Vw0">MEGA</a></b>
-</p>
-]]></content>
-      <categories>
-        <category>BL Japanese ASMR</category>
-      </categories>
-      <tags>
-        <tag>ハニーブーブー</tag>
-        <tag>mp3</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【BL ASMR】 性奴○お披露目会</title>
     <url>/posts/a0feffba/</url>
     <content><![CDATA[<p><img src="/img/189712.jpg"></p>
@@ -583,8 +562,8 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>mp3</tag>
         <tag>Carbohydrate</tag>
+        <tag>mp3</tag>
       </tags>
   </entry>
   <entry>
@@ -610,33 +589,29 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>ハニーブーブー</tag>
         <tag>mp3</tag>
+        <tag>ハニーブーブー</tag>
       </tags>
   </entry>
   <entry>
-    <title>【BL ASMR】 妄執ストーカー三影くんのお届けです。</title>
-    <url>/posts/ae5ce079/</url>
-    <content><![CDATA[<p><img src="/img/388406.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 妄執ストーカー三影くんのお届けです。<br>Developer : ハニーブーブー<br>Character Voice: amaoto<br>Format: MP3</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>蜂巣三影は、国公立大学に通う2年生。<br>ミステリアスな雰囲気を放つ彼は、あまたの同級生から合コンに誘われるが、<br>すべて「恋人がいるから」と断っていた。</p>
-<p>『向葵くんと付き合いだしたのは、小学校4年生のとき。<br>向葵くんは塾の先生で、社会を教えてくれてた。<br>向葵くんは格好良くて見てるだけでドキドキして……</p>
-<p>ある日、勇気を振り絞って質問をしに行った…<br>そのとき、『蜂巣は勉強熱心でえらいなぁ』って頭をなでてくれて…<br>それから僕たちの秘密の交際は始まった。</p>
-<p>言葉もめったに交わさないし、顔を合わせることも少ないけれど…<br>僕は向葵くんが今どこで何をしているかぜーんぶ知ってるから平気♪』</p>
-<p>しかし…<br>ある日、三影は向葵が女を抱いている場面を盗聴してしまい…</p>
-<p>『そうだ、二人だけの世界を作ればいいんだ♪』</p>
-<p>歪んだ愛×歪んだ愛のハートフルエロラブコメディです♪</p>
+    <title>【BL ASMR】 それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～</title>
+    <url>/posts/3f87dadf/</url>
+    <content><![CDATA[<p><img src="/img/RJ438746(1).jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : それでも君に首ったけ!～浮気性な恋人にお仕置き治療(わからせセックス)～<br>Developer : ハニーブーブー<br>Character Voice: かっぱガリ, 春真最中<br>Format: MP3</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>俳優の空木遥は、専属スタイリストの都川湊と本番なしという契約の元、交際している。<br>しかし、空木は人肌恋しい性質で、浮気を繰り返していた。<br>あることをきっかけに、都川を大切にしたいという気持ちに気付いた空木は、『もう浮気はしない』と宣言。<br>しかし……やはり浮気癖は治らず。<br>再び浮気をしてしまい泣きながら謝る空木に、都川は天使のように微笑む。</p>
+<p>大丈夫だよ、もう罪悪感で苦しまなくていいように<br>誰よりもオンナノコにしてあげるからね」</p>
+<p>「え………!?」</p>
 <h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
 <p align="center">
-<b><a href="https://mega.nz/file/kMJmSLKY#kNmgqlK5dOA4FX8FxSkXI96-lgwACaMmJtMQW7l6H0E">MEGA</a></b>
+<b><a href="https://mega.nz/file/gdxnCArL#oFpaYQ-YhnN3xhRq-4Ml3t0uUQnP3hWICWtdGzP2Vw0">MEGA</a></b>
 </p>
 ]]></content>
       <categories>
         <category>BL Japanese ASMR</category>
       </categories>
       <tags>
-        <tag>ハニーブーブー</tag>
         <tag>mp3</tag>
+        <tag>ハニーブーブー</tag>
       </tags>
   </entry>
   <entry>
@@ -661,6 +636,31 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       <tags>
         <tag>cyan</tag>
         <tag>mp3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【BL ASMR】 妄執ストーカー三影くんのお届けです。</title>
+    <url>/posts/ae5ce079/</url>
+    <content><![CDATA[<p><img src="/img/388406.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 妄執ストーカー三影くんのお届けです。<br>Developer : ハニーブーブー<br>Character Voice: amaoto<br>Format: MP3</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>蜂巣三影は、国公立大学に通う2年生。<br>ミステリアスな雰囲気を放つ彼は、あまたの同級生から合コンに誘われるが、<br>すべて「恋人がいるから」と断っていた。</p>
+<p>『向葵くんと付き合いだしたのは、小学校4年生のとき。<br>向葵くんは塾の先生で、社会を教えてくれてた。<br>向葵くんは格好良くて見てるだけでドキドキして……</p>
+<p>ある日、勇気を振り絞って質問をしに行った…<br>そのとき、『蜂巣は勉強熱心でえらいなぁ』って頭をなでてくれて…<br>それから僕たちの秘密の交際は始まった。</p>
+<p>言葉もめったに交わさないし、顔を合わせることも少ないけれど…<br>僕は向葵くんが今どこで何をしているかぜーんぶ知ってるから平気♪』</p>
+<p>しかし…<br>ある日、三影は向葵が女を抱いている場面を盗聴してしまい…</p>
+<p>『そうだ、二人だけの世界を作ればいいんだ♪』</p>
+<p>歪んだ愛×歪んだ愛のハートフルエロラブコメディです♪</p>
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/kMJmSLKY#kNmgqlK5dOA4FX8FxSkXI96-lgwACaMmJtMQW7l6H0E">MEGA</a></b>
+</p>
+]]></content>
+      <categories>
+        <category>BL Japanese ASMR</category>
+      </categories>
+      <tags>
+        <tag>mp3</tag>
+        <tag>ハニーブーブー</tag>
       </tags>
   </entry>
   <entry>
