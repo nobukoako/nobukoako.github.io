@@ -69,7 +69,7 @@ a[href="/posts/b5c73c87/"] {
   font-size: 2.2rem !important;
 }
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap a {
-  color: #363636 !important;
+  color: var(--anzhiyu-fontcolor) !important;
 }  
 .comment-randomInfo { display: none !important; }
 }
