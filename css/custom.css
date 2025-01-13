@@ -71,5 +71,8 @@ a[href="/posts/b5c73c87/"] {
 #recent-posts > .recent-post-item > .recent-post-info > .article-meta-wrap a {
   color: var(--anzhiyu-fontcolor) !important;
 }  
+#error-wrap .error-content .error-img {
+  background-color: white !important;
+}
 .comment-randomInfo { display: none !important; }
 }
