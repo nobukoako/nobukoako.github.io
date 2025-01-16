@@ -39,25 +39,23 @@
       </tags>
   </entry>
   <entry>
-    <title>【BL ASMR】 ノンケ非処女リーマン小谷さん(27歳、縦割れ) 念願の本物チンポでオホイキからの恋愛ってアリ!?</title>
-    <url>/posts/be47ac28/</url>
-    <content><![CDATA[<p><img src="/img/RJ01140867_img_main.webp"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : ノンケ非処女リーマン小谷さん(27歳、縦割れ) 念願の本物チンポでオホイキからの恋愛ってアリ!?<br>Developer : somnium<br>Character Voice: 麻生修也<br>Format: wav</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>ある日、居酒屋に集まった男女10人。<br>各々会話に花が咲いているものの、約2名……何も縁が出来ないことが逆に面白くなって意気投合。<br>二人は結局2軒目へ行ってそのまま終電を逃しラブホテルで三次会をすることに。<br>しかしそこで誠吾性癖を暴露し始めているうちに、誠吾がとんでもない性癖を元彼女に植え付けられてしまっていたことが発覚する。<br>そしてその晩……何故か二人はセックスをすることになってしまい……!?</p>
+    <title>【BL ASMR】 렌즈의 저편에 (Korean version)</title>
+    <url>/posts/cbfb82e9/</url>
+    <content><![CDATA[<p><img src="/img/img_RJ01186163_img_main.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 렌즈의 저편에&#x2F;レンズの向こうに<br>Developer : プロマリモプロジェクト&#x2F;ハユンのセカイ<br>Character Voice: 大谷祐貴, 大川隼汰<br>Format: wav</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>高校生の親友同士、遥には彼女がいるのに最近様子がおかしい。<br>遥のスマホに自分の寝顔が入ってるのを見てしまった悠斗。<br>消せと頼むが、気にいってるから・・・悠斗が好きだからと消さない遥。<br>とまどう悠斗に対し遥は動じることなく悠斗見つめ続ける。<br>後日遥の家で2人は・・・</p>
 <h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
 <p align="center">
-<b>MEGA</b>
-
-
-<a href="https://mega.nz/file/ZIYUxRiY#csjq8EPssyT11oBqoxX1yAjAgGAV0zjMHBNEvfm07WA">Part 1</a> | <a href="https://mega.nz/file/0AhyARrZ#y1GKo09kOEtIhUVR4dTmgqPvYBFlCmid3Yam4ZT75Us">Part 2</a>
+<b><a href="https://mega.nz/file/ZJBWjDwY#2uH185Ld23Lna-JiyM1F2UfnhZ1iSnDlhPlT7da2UEE">MEGA</a></b>
 </p>
 ]]></content>
       <categories>
-        <category>BL Japanese ASMR</category>
+        <category>BL Korean ASMR</category>
       </categories>
       <tags>
         <tag>wav</tag>
-        <tag>somnium</tag>
+        <tag>プロマリモプロジェクト</tag>
+        <tag>ハユンのセカイ</tag>
       </tags>
   </entry>
   <entry>
@@ -77,29 +75,6 @@
       <tags>
         <tag>wav</tag>
         <tag>新騎の夢語り</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
-    <url>/posts/b5c73c87/</url>
-    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
-<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
-</li>
-<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
-</li>
-<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
-</li>
-</ol>
-<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
-<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
-<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Vivid Color</tag>
-        <tag>Nessa no Rakuen</tag>
       </tags>
   </entry>
   <entry>
@@ -161,67 +136,48 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert Emon engine scripts for translations (Ego to Koukai no Dilemma)</title>
-    <url>/posts/ca51340e/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+    <title>【Tutorial】 How to extract, edit, and re-insert AST engine scripts for translations (Nessa no Rakuen)</title>
+    <url>/posts/b5c73c87/</url>
+    <content><![CDATA[<h1 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h1><ol>
 <li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
 </li>
 <li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
 </li>
+<li><p><a href="https://github.com/amayra/arc_conv">arc_conv</a></p>
+</li>
 </ol>
-<h2 id="Extracting-EDscene-eme"><a href="#Extracting-EDscene-eme" class="headerlink" title="Extracting EDscene.eme"></a>Extracting EDscene.eme</h2><p>Use GARbro to extract the .txt files from EDscene.eme , it’s located in the Data folder.</p>
-<h2 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h2><p>Open 运行.bat, choose the directory where the extracted .txt is located, and put the engine to “BIN”. Extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “__Custom0” and paste:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">00_skip=^$</span><br><span class="line">10_search=^([^#].*?)$</span><br><span class="line">11_search=#文章表示\((?P[^\d,]+?),</span><br><span class="line">12_search=^#SetNumber\(コメント=(.+?)\)</span><br><span class="line">15_skip=^(?!#Select)</span><br><span class="line">20_search=#(?!Select).+$|(?&lt;=,|\()([^,]+?),[^,\)]+[,\)]</span><br><span class="line">separate=\n</span><br><span class="line">pureText=1</span><br><span class="line">&lt;需要自行检查12_search的コメント能否修改&gt;</span><br></pre></td></tr></table></figure>
-<p><img src="/img/python_f3GUkcBzxH.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and edit the files there. To reinsert them back into .txt files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.</p>
-<h2 id="Repacking-EDscene-eme"><a href="#Repacking-EDscene-eme" class="headerlink" title="Repacking EDscene.eme"></a>Repacking EDscene.eme</h2><p>To repack EDscene.eme with your edited .txt files, go to your SExtractor directory and go to the folder tools &gt; EmonEngine. Create a folder with your edited .txt files inside and place the original EDscene.eme file OUTSIDE the folder containing the .txt files.<br><img src="/img/explorer_p0S7lg2bKi.png"><br>Afterwards, open Command Prompt and type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python eme_pack.py [the folder with the .txt files]</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Jin Clip</tag>
-        <tag>Ego to Koukai no Dilemma</tag>
-        <tag>Dilemma of Ego and Regret</tag>
-        <tag>EgoDille</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert GameSystem engine scripts for translations (Artificial Mermaid -Silver Chaos II-, Hanamachi Monogatari)</title>
-    <url>/posts/bc51191d/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><a href="https://github.com/amayra/arc_conv">arc_conv</a></li>
-</ol>
-<h2 id="Unpacking-cmp"><a href="#Unpacking-cmp" class="headerlink" title="Unpacking .cmp"></a>Unpacking .cmp</h2><p>Run build.bat to create arc_conv.exe in the “arc_conv” folder, then open arc_conv.exe to extract SCRIPT.cmp. The scripts are simple XML files.</p>
-<h2 id="Repacking-cmp"><a href="#Repacking-cmp" class="headerlink" title="Repacking .cmp"></a>Repacking .cmp</h2><p>Put the folder containing your edited XML files inside the arc_conv.exe directory then open cmd and type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack vivid [FOLDER NAME] SCRIPT</span><br></pre></td></tr></table></figure>]]></content>
+<h1 id="Extracting-the-script-files-adv-from-dat01"><a href="#Extracting-the-script-files-adv-from-dat01" class="headerlink" title="Extracting the script files (.adv) from dat01"></a>Extracting the script files (.adv) from dat01</h1><p>Use GARbro to extract the .adv files from dat01</p>
+<h1 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h1><p>Open 运行.bat, choose the directory where the extracted .adv is located, and put the engine to “BIN”. extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “AST”.<br><img src="/img/python3.10_jRtlnTsIkV-1.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and translate the files there. To reinsert them back into .adv files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.<br><img src="/img/explorer_zOKOJ4cvbn.png"></p>
+<h1 id="Repacking-dat01"><a href="#Repacking-dat01" class="headerlink" title="Repacking dat01"></a>Repacking dat01</h1><p>Put the folder containing your edited .adv files inside the arc_conv directory. Then, in the directory address bar, type “cmd,” press Enter, then type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack arc12 [FOLDER NAME] dat01</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Tutorials</category>
       </categories>
       <tags>
         <tag>Vivid Color</tag>
-        <tag>Artificial Mermaid -Silver Chaos II-</tag>
-        <tag>Silver Chaos 2</tag>
-        <tag>Hanamachi Monogatari</tag>
+        <tag>Nessa no Rakuen</tag>
       </tags>
   </entry>
   <entry>
-    <title>【BL ASMR】 렌즈의 저편에 (Korean version)</title>
-    <url>/posts/cbfb82e9/</url>
-    <content><![CDATA[<p><img src="/img/img_RJ01186163_img_main.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : 렌즈의 저편에&#x2F;レンズの向こうに<br>Developer : プロマリモプロジェクト&#x2F;ハユンのセカイ<br>Character Voice: 大谷祐貴, 大川隼汰<br>Format: wav</p>
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>高校生の親友同士、遥には彼女がいるのに最近様子がおかしい。<br>遥のスマホに自分の寝顔が入ってるのを見てしまった悠斗。<br>消せと頼むが、気にいってるから・・・悠斗が好きだからと消さない遥。<br>とまどう悠斗に対し遥は動じることなく悠斗見つめ続ける。<br>後日遥の家で2人は・・・</p>
+    <title>【BL ASMR】 ノンケ非処女リーマン小谷さん(27歳、縦割れ) 念願の本物チンポでオホイキからの恋愛ってアリ!?</title>
+    <url>/posts/be47ac28/</url>
+    <content><![CDATA[<p><img src="/img/RJ01140867_img_main.webp"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : ノンケ非処女リーマン小谷さん(27歳、縦割れ) 念願の本物チンポでオホイキからの恋愛ってアリ!?<br>Developer : somnium<br>Character Voice: 麻生修也<br>Format: wav</p>
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>ある日、居酒屋に集まった男女10人。<br>各々会話に花が咲いているものの、約2名……何も縁が出来ないことが逆に面白くなって意気投合。<br>二人は結局2軒目へ行ってそのまま終電を逃しラブホテルで三次会をすることに。<br>しかしそこで誠吾性癖を暴露し始めているうちに、誠吾がとんでもない性癖を元彼女に植え付けられてしまっていたことが発覚する。<br>そしてその晩……何故か二人はセックスをすることになってしまい……!?</p>
 <h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
 <p align="center">
-<b><a href="https://mega.nz/file/ZJBWjDwY#2uH185Ld23Lna-JiyM1F2UfnhZ1iSnDlhPlT7da2UEE">MEGA</a></b>
+<b>MEGA</b>
+
+
+<a href="https://mega.nz/file/ZIYUxRiY#csjq8EPssyT11oBqoxX1yAjAgGAV0zjMHBNEvfm07WA">Part 1</a> | <a href="https://mega.nz/file/0AhyARrZ#y1GKo09kOEtIhUVR4dTmgqPvYBFlCmid3Yam4ZT75Us">Part 2</a>
 </p>
 ]]></content>
       <categories>
-        <category>BL Korean ASMR</category>
+        <category>BL Japanese ASMR</category>
       </categories>
       <tags>
         <tag>wav</tag>
-        <tag>プロマリモプロジェクト</tag>
-        <tag>ハユンのセカイ</tag>
+        <tag>somnium</tag>
       </tags>
   </entry>
   <entry>
@@ -249,6 +205,50 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert GameSystem engine scripts for translations (Artificial Mermaid -Silver Chaos II-, Hanamachi Monogatari)</title>
+    <url>/posts/bc51191d/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><a href="https://github.com/amayra/arc_conv">arc_conv</a></li>
+</ol>
+<h2 id="Unpacking-cmp"><a href="#Unpacking-cmp" class="headerlink" title="Unpacking .cmp"></a>Unpacking .cmp</h2><p>Run build.bat to create arc_conv.exe in the “arc_conv” folder, then open arc_conv.exe to extract SCRIPT.cmp. The scripts are simple XML files.</p>
+<h2 id="Repacking-cmp"><a href="#Repacking-cmp" class="headerlink" title="Repacking .cmp"></a>Repacking .cmp</h2><p>Put the folder containing your edited XML files inside the arc_conv.exe directory then open cmd and type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">arc_conv.exe --pack vivid [FOLDER NAME] SCRIPT</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Vivid Color</tag>
+        <tag>Artificial Mermaid -Silver Chaos II-</tag>
+        <tag>Silver Chaos 2</tag>
+        <tag>Hanamachi Monogatari</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert Emon engine scripts for translations (Ego to Koukai no Dilemma)</title>
+    <url>/posts/ca51340e/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
+</li>
+<li><p><a href="https://github.com/satan53x/SExtractor">SExtractor</a></p>
+</li>
+</ol>
+<h2 id="Extracting-EDscene-eme"><a href="#Extracting-EDscene-eme" class="headerlink" title="Extracting EDscene.eme"></a>Extracting EDscene.eme</h2><p>Use GARbro to extract the .txt files from EDscene.eme , it’s located in the Data folder.</p>
+<h2 id="Using-SExtractor-to-extract-and-re-insert-the-script"><a href="#Using-SExtractor-to-extract-and-re-insert-the-script" class="headerlink" title="Using SExtractor to extract and re-insert the script"></a>Using SExtractor to extract and re-insert the script</h2><p>Open 运行.bat, choose the directory where the extracted .txt is located, and put the engine to “BIN”. Extractformat and extractmode can be anything, but I suggest going with JSON {name, msgRN} or xlsx and multifile. Click “choose regex” and choose “__Custom0” and paste:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">00_skip=^$</span><br><span class="line">10_search=^([^#].*?)$</span><br><span class="line">11_search=#文章表示\((?P[^\d,]+?),</span><br><span class="line">12_search=^#SetNumber\(コメント=(.+?)\)</span><br><span class="line">15_skip=^(?!#Select)</span><br><span class="line">20_search=#(?!Select).+$|(?&lt;=,|\()([^,]+?),[^,\)]+[,\)]</span><br><span class="line">separate=\n</span><br><span class="line">pureText=1</span><br><span class="line">&lt;需要自行检查12_search的コメント能否修改&gt;</span><br></pre></td></tr></table></figure>
+<p><img src="/img/python_f3GUkcBzxH.png"><br>There should be a new folder called “orig” that contains the original script put into JSON files, copy all of these to the “trans” folder and edit the files there. To reinsert them back into .txt files, run SExtractor again with the same settings as before and click “extract&#x2F;import.” It should automatically detect the files in “trans” and output them to the “new” folder.</p>
+<h2 id="Repacking-EDscene-eme"><a href="#Repacking-EDscene-eme" class="headerlink" title="Repacking EDscene.eme"></a>Repacking EDscene.eme</h2><p>To repack EDscene.eme with your edited .txt files, go to your SExtractor directory and go to the folder tools &gt; EmonEngine. Create a folder with your edited .txt files inside and place the original EDscene.eme file OUTSIDE the folder containing the .txt files.<br><img src="/img/explorer_p0S7lg2bKi.png"><br>Afterwards, open Command Prompt and type:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">python eme_pack.py [the folder with the .txt files]</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Jin Clip</tag>
+        <tag>Ego to Koukai no Dilemma</tag>
+        <tag>Dilemma of Ego and Regret</tag>
+        <tag>EgoDille</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【Tutorial】 How to extract, edit, and re-insert YU-RIS engine scripts for translations (Narisokonai no Yosuga)</title>
     <url>/posts/16572e88/</url>
     <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
@@ -263,7 +263,7 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
 <h2 id="Extracting-text-from-the-ybn-file"><a href="#Extracting-text-from-the-ybn-file" class="headerlink" title="Extracting text from the .ybn file"></a>Extracting text from the .ybn file</h2><p>Open command prompt in the VNTextPatch directory and type:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">VNTextPatch extractlocal [folder containing original .ybn files] [folder to output the .json files]</span><br></pre></td></tr></table></figure>
 <h2 id="Reinserting-the-text-back-into-ybn"><a href="#Reinserting-the-text-back-into-ybn" class="headerlink" title="Reinserting the text back into .ybn"></a>Reinserting the text back into .ybn</h2><p>Open command prompt in the VNTextPatch’s directory and type:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">VNTextPatch insertlocal [folder containing the original .ybn files] [folder containing the .json files] [folder to receive the new translated .ybn files]</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Excel:</span><br><span class="line">VNTextPatch extractlocal &lt;folder containing original game files&gt; script.xlsx</span><br><span class="line">VNTextPatch insertlocal &lt;folder containing original game files&gt; script.xlsx &lt;folder to receive patched game files&gt;</span><br><span class="line"></span><br><span class="line">JSON:</span><br><span class="line">VNTextPatch extractlocal &lt;folder containing original game files&gt; &lt;folder to receive .json files&gt;</span><br><span class="line">VNTextPatch insertlocal &lt;folder containing original game files&gt; &lt;folder containing .json files&gt; &lt;folder to receive patched game files&gt;</span><br><span class="line"></span><br><span class="line">Google Documents:</span><br><span class="line">VNTextPatch insertgdocs &lt;folder containing original game files&gt; &lt;Google Docs spreadsheet identifier&gt; &lt;folder to receive patched game files&gt;</span><br></pre></td></tr></table></figure>
 <h2 id="Repacking-ysbin-ypf"><a href="#Repacking-ysbin-ypf" class="headerlink" title="Repacking ysbin.ypf"></a>Repacking ysbin.ypf</h2><div class="note info flat"><p>Keep in mind the folder structure should be ysbin &gt; ysbin &gt; (the .ybn files)</p>
 </div>
 <p>Put the original ysbin.ypf file and the folder (which needs to be called ysbin) containing your edited .ybn files inside the BREYURIS directory then open BREYURIS.exe. Type in “ysbin.ypf” in “YPF name” then click “YPF info”.</p>
@@ -312,77 +312,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
-    <title>【BL Game】 Melancholic Dreamtower</title>
-    <url>/posts/b014d67c/</url>
-    <content><![CDATA[<p><img src="https://static.wixstatic.com/media/e12982_d9cba1a70664457aa701f7257f2b792a~mv2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/mdt_g_top.jpg"></p>
-<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : メランコリック・ドリィムタワー&#x2F;Melancholic Dreamtower<br>Developer : Gintou<br>Play time: Medium<br>VNDB: v11910<br>Engine: Kirikiri</p>
-
-<p align="center">
-<b><a href="https://izumicava.wixsite.com/gintou/mdt">Official Website</a></b>
-</p>
-
-
-<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>“You’re the new hero.”</p>
-<p>Ichiya Shinozaki opened his eyes in a strange darkness<br>to the words of a stranger.</p>
-<p>“There’s a princess trapped in the highest room of this tower. I need you to get her out of this place.”</p>
-<p>It felt like the premise of some RPG.<br>Ichiya was full of questions, but the stranger’s way seemed the only way.<br>If he wanted to get out of here, he would have to save the princess.</p>
-<p>Ichiya wasn’t alone in his upward journey.<br>On the first floor was a man rendered deaf and mute.<br>On the second floor, a blinded man.<br>On the third floor, a man who coveted color.<br>On the fourth floor, a young girl who was terrified of men.</p>
-<p>He undertook his so-called quest.<br>For the sake of the princess, for his own sake, in defiance of destiny,<br>steeped in the interests of five cohabitants.</p>
-<p>5 potential suicides. 5 candidates for death.</p>
-<p>In the overwhelming gloom of a dark pagoda.</p>
-<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
-  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
-    <span class="gallery-data">[{"url":"/img/347ba8f4-9ad5-4b27-8906-54b17248ba10_base_resized.jpg","alt":""},{"url":"/img/d675a3e6-a424-412a-8d17-669e1030725c_base_resized.jpg","alt":""},{"url":"/img/3b3fbe5d-9ed7-438c-a708-5fcea26e84b0_base_resized.jpg","alt":""},{"url":"/img/47de67d7-3cba-4126-a5ee-bff307c3fabf_base_resized.jpg","alt":""},{"url":"/img/49bb65b8-8373-45bd-b0d1-6a069e1f22dc_base_resized.jpg","alt":""},{"url":"/img/RJ082685_img_smp1.jpg","alt":""}]</span>
-  </div><button class="gallery-load-more" style="opacity:0">
-  <span>Load More</span>
-  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
-  </button></div>
-
-<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
-<p align="center">
-<b><a href="https://mega.nz/file/UNIQBaaI#bBigXkjm1gMyyX_CFKsvrCIf8UBr8CFOjOE_7uStFCM">MEGA</a></b>
-</p>
-
-
-<p align="center">
-<b><a href="https://www.mediafire.com/file/bhn9p9ta7be2hk2/Melancholic+Dreamtower.7z/file">Mediafire</a></b>
-</p>
-
-
-
-]]></content>
-      <categories>
-        <category>BL Games</category>
-      </categories>
-      <tags>
-        <tag>Gintou</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert Gswin/Gspack engine scripts for translations (Messiah)</title>
-    <url>/posts/72f209ec/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
-</li>
-<li><p><a href="https://github.com/regomne/lneditor/">lneditor</a></p>
-</li>
-<li><p><a href="http://wks.arai-kibou.ru/ae.php?p=dl">AE - VN Tools</a></p>
-</li>
-</ol>
-<h2 id="Unpacking-SCR-PAK"><a href="#Unpacking-SCR-PAK" class="headerlink" title="Unpacking SCR.PAK"></a>Unpacking SCR.PAK</h2><p>Use GARbro to open SCR.PAK and extract all the .scw files into a folder.</p>
-<h2 id="Converting-the-scw-files-into-text-files"><a href="#Converting-the-scw-files-into-text-files" class="headerlink" title="Converting the .scw files into text files"></a>Converting the .scw files into text files</h2><p>Open lneditor and go to “批量(M)”, click “批量导出TXT(E).” A new window will show up; click “使用插件” and change it to “GsWin Plugin”. Keep the encoding as “UNKNOWN”.<br><img src="/img/lnedit_tuiiLP8shi.jpg"><br><img src="/img/lnedit_Pt0AmW6IXW.png"><br>If done right, you’ll end up with something like this:<br><img src="/img/notepad_AkUES4JM2A.png"></p>
-<h2 id="Re-inserting-the-edited-text-files-back-into-scw-files"><a href="#Re-inserting-the-edited-text-files-back-into-scw-files" class="headerlink" title="Re-inserting the edited text files back into .scw files"></a>Re-inserting the edited text files back into .scw files</h2><p>Open lneditor and go to “批量(M)” again then click “批量导入 (I)”. Keep the same settings as before.<br><img src="/img/lnedit_tuiiLP8shi.png"><br><img src="/img/lnedit_9a0gVBQDrZ.png"></p>
-<h2 id="Repacking-SCR-PAK"><a href="#Repacking-SCR-PAK" class="headerlink" title="Repacking SCR.PAK"></a>Repacking SCR.PAK</h2><p>Open AE and go to the “Archive Tool” tab and choose Datapack5&#x2F;ROOT engine. Click “Create Archive” and choose the directory containing your edited .scw files.</p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>CORE</tag>
-        <tag>Messiah</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【BL Game】 Haiiro no Arcadia/Gray Arcadia</title>
     <url>/posts/19e3d86a/</url>
     <content><![CDATA[<p><img src="/img/resize_image.jpg"></p>
@@ -425,6 +354,30 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </categories>
       <tags>
         <tag>Peaky</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert Gswin/Gspack engine scripts for translations (Messiah)</title>
+    <url>/posts/72f209ec/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/morkt/GARbro/">GARBRO</a></p>
+</li>
+<li><p><a href="https://github.com/regomne/lneditor/">lneditor</a></p>
+</li>
+<li><p><a href="http://wks.arai-kibou.ru/ae.php?p=dl">AE - VN Tools</a></p>
+</li>
+</ol>
+<h2 id="Unpacking-SCR-PAK"><a href="#Unpacking-SCR-PAK" class="headerlink" title="Unpacking SCR.PAK"></a>Unpacking SCR.PAK</h2><p>Use GARbro to open SCR.PAK and extract all the .scw files into a folder.</p>
+<h2 id="Converting-the-scw-files-into-text-files"><a href="#Converting-the-scw-files-into-text-files" class="headerlink" title="Converting the .scw files into text files"></a>Converting the .scw files into text files</h2><p>Open lneditor and go to “批量(M)”, click “批量导出TXT(E).” A new window will show up; click “使用插件” and change it to “GsWin Plugin”. Keep the encoding as “UNKNOWN”.<br><img src="/img/lnedit_tuiiLP8shi.jpg"><br><img src="/img/lnedit_Pt0AmW6IXW.png"><br>If done right, you’ll end up with something like this:<br><img src="/img/notepad_AkUES4JM2A.png"></p>
+<h2 id="Re-inserting-the-edited-text-files-back-into-scw-files"><a href="#Re-inserting-the-edited-text-files-back-into-scw-files" class="headerlink" title="Re-inserting the edited text files back into .scw files"></a>Re-inserting the edited text files back into .scw files</h2><p>Open lneditor and go to “批量(M)” again then click “批量导入 (I)”. Keep the same settings as before.<br><img src="/img/lnedit_tuiiLP8shi.png"><br><img src="/img/lnedit_9a0gVBQDrZ.png"></p>
+<h2 id="Repacking-SCR-PAK"><a href="#Repacking-SCR-PAK" class="headerlink" title="Repacking SCR.PAK"></a>Repacking SCR.PAK</h2><p>Open AE and go to the “Archive Tool” tab and choose Datapack5&#x2F;ROOT engine. Click “Create Archive” and choose the directory containing your edited .scw files.</p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>CORE</tag>
+        <tag>Messiah</tag>
       </tags>
   </entry>
   <entry>
@@ -506,6 +459,81 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       </tags>
   </entry>
   <entry>
+    <title>【BL Game】 Melancholic Dreamtower</title>
+    <url>/posts/b014d67c/</url>
+    <content><![CDATA[<p><img src="https://static.wixstatic.com/media/e12982_d9cba1a70664457aa701f7257f2b792a~mv2.jpg/v1/fill/w_560,h_400,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/mdt_g_top.jpg"></p>
+<h1 id="Information"><a href="#Information" class="headerlink" title="Information"></a>Information</h1><p>Title : メランコリック・ドリィムタワー&#x2F;Melancholic Dreamtower<br>Developer : Gintou<br>Play time: Medium<br>VNDB: v11910<br>Engine: Kirikiri</p>
+
+<p align="center">
+<b><a href="https://izumicava.wixsite.com/gintou/mdt">Official Website</a></b>
+</p>
+
+
+<h1 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h1><p>“You’re the new hero.”</p>
+<p>Ichiya Shinozaki opened his eyes in a strange darkness<br>to the words of a stranger.</p>
+<p>“There’s a princess trapped in the highest room of this tower. I need you to get her out of this place.”</p>
+<p>It felt like the premise of some RPG.<br>Ichiya was full of questions, but the stranger’s way seemed the only way.<br>If he wanted to get out of here, he would have to save the princess.</p>
+<p>Ichiya wasn’t alone in his upward journey.<br>On the first floor was a man rendered deaf and mute.<br>On the second floor, a blinded man.<br>On the third floor, a man who coveted color.<br>On the fourth floor, a young girl who was terrified of men.</p>
+<p>He undertook his so-called quest.<br>For the sake of the princess, for his own sake, in defiance of destiny,<br>steeped in the interests of five cohabitants.</p>
+<p>5 potential suicides. 5 candidates for death.</p>
+<p>In the overwhelming gloom of a dark pagoda.</p>
+<h1 id="Screenshots"><a href="#Screenshots" class="headerlink" title="Screenshots"></a>Screenshots</h1><div class="gallery">
+  <div class="fj-gallery page_img_lazyload  data" data-rowHeight="220" data-limit="10">
+    <span class="gallery-data">[{"url":"/img/347ba8f4-9ad5-4b27-8906-54b17248ba10_base_resized.jpg","alt":""},{"url":"/img/d675a3e6-a424-412a-8d17-669e1030725c_base_resized.jpg","alt":""},{"url":"/img/3b3fbe5d-9ed7-438c-a708-5fcea26e84b0_base_resized.jpg","alt":""},{"url":"/img/47de67d7-3cba-4126-a5ee-bff307c3fabf_base_resized.jpg","alt":""},{"url":"/img/49bb65b8-8373-45bd-b0d1-6a069e1f22dc_base_resized.jpg","alt":""},{"url":"/img/RJ082685_img_smp1.jpg","alt":""}]</span>
+  </div><button class="gallery-load-more" style="opacity:0">
+  <span>Load More</span>
+  <i class="anzhiyufont anzhiyu-icon-arrow-down"></i>
+  </button></div>
+
+<h1 id="Download"><a href="#Download" class="headerlink" title="Download"></a>Download</h1>
+<p align="center">
+<b><a href="https://mega.nz/file/UNIQBaaI#bBigXkjm1gMyyX_CFKsvrCIf8UBr8CFOjOE_7uStFCM">MEGA</a></b>
+</p>
+
+
+<p align="center">
+<b><a href="https://www.mediafire.com/file/bhn9p9ta7be2hk2/Melancholic+Dreamtower.7z/file">Mediafire</a></b>
+</p>
+
+
+
+]]></content>
+      <categories>
+        <category>BL Games</category>
+      </categories>
+      <tags>
+        <tag>Gintou</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Tutorial】 How to extract, edit, and re-insert Siglus Engine scripts for translations (Tsumi naru Rasen no Ori -Whispers of Iscariot-)</title>
+    <url>/posts/413dc002/</url>
+    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
+<li><p><a href="https://github.com/yanhua0518/GALgameScriptTools/">Siglus Tools</a></p>
+</li>
+<li><p><a href="https://github.com/xmoezzz/SiglusExtract/">SiglusExtract</a></p>
+</li>
+<li><p><a href="https://github.com/marcussacana/SiglusSceneManager/releases/">SiglusPatcher</a></p>
+</li>
+</ol>
+<h2 id="Extracting-Scene-pck"><a href="#Extracting-Scene-pck" class="headerlink" title="Extracting Scene.pck"></a>Extracting Scene.pck</h2><p>Open SiglusTools and select the Scene.pck file and output folder. Keep the Decryption Key on “Try to find key when working on Scene”. </p>
+<h2 id="Converting-ss-scripts-into-text-files-or-xlsx"><a href="#Converting-ss-scripts-into-text-files-or-xlsx" class="headerlink" title="Converting .ss scripts into text files or xlsx"></a>Converting .ss scripts into text files or xlsx</h2><p>Go to “Dump ss”, select the folder containing the extracted .ss and the output folder.</p>
+<h2 id="Re-inserting-text-files-or-xlsx-back-into-ss-scripts"><a href="#Re-inserting-text-files-or-xlsx-back-into-ss-scripts" class="headerlink" title="Re-inserting text files or xlsx back into .ss scripts"></a>Re-inserting text files or xlsx back into .ss scripts</h2><p>Go to “Pack ss” and select your original .ss folder, your edited .txt or xlsx folder, and the output folder.</p>
+<h2 id="Repacking-Scene-pck"><a href="#Repacking-Scene-pck" class="headerlink" title="Repacking Scene.pck"></a>Repacking Scene.pck</h2><p>Go to “Pack Scene” and select the original Scene.pck file, your edited .ss folder, and the output folder.</p>
+<h2 id="Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher"><a href="#Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher" class="headerlink" title="(Optional) Siglus Engine word-wrapping with SiglusPatcher"></a>(Optional) Siglus Engine word-wrapping with SiglusPatcher</h2><p>Put the files inside SiglusPatcher.zip into your game directory, open the directory in Command Prompt and do:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SiglusPatcher.exe -WordWrap SiglusEngine.exe</span><br></pre></td></tr></table></figure>
+<p>Pick any version, and it should (hopefully) work.</p>
+<h2 id="Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract"><a href="#Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract" class="headerlink" title="Alternative way of unpacking and re-packing Scene.pck using SiglusExtract"></a>Alternative way of unpacking and re-packing Scene.pck using SiglusExtract</h2><p>Put SiglusExtract.exe and SiglusExtract.dll into your game directory, drag the exectuable into SiglusExtract.exe or double click on SiglusExtract.exe. Drag Scene.pck into the SiglusExtract.exe window to unpack. To re-pack go to “Repack Scene.pck” and select the folder with your edited .ss files and do “Do Pack!”<br><img src="/img/SiglusEngine_6FSDFCFGac.png"></p>
+]]></content>
+      <categories>
+        <category>Tutorials</category>
+      </categories>
+      <tags>
+        <tag>Spray</tag>
+        <tag>Tsumi naru Rasen no Ori -Whispers of Iscariot-</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【BL Game】 powdergray</title>
     <url>/posts/c1d31f55/</url>
     <content><![CDATA[<p><img src="/img/twitter%E3%83%98%E3%83%83%E3%83%80%E3%83%BC1500-500.png"></p>
@@ -582,34 +610,6 @@ Shingakkou noli me tangere, Theological Seminary, 神学校-Noli me tangere-
       <tags>
         <tag>mp3</tag>
         <tag>Carbohydrate</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【Tutorial】 How to extract, edit, and re-insert Siglus Engine scripts for translations (Tsumi naru Rasen no Ori -Whispers of Iscariot-)</title>
-    <url>/posts/413dc002/</url>
-    <content><![CDATA[<h2 id="Tools"><a href="#Tools" class="headerlink" title="Tools"></a>Tools</h2><ol>
-<li><p><a href="https://github.com/yanhua0518/GALgameScriptTools/">Siglus Tools</a></p>
-</li>
-<li><p><a href="https://github.com/xmoezzz/SiglusExtract/">SiglusExtract</a></p>
-</li>
-<li><p><a href="https://github.com/marcussacana/SiglusSceneManager/releases/">SiglusPatcher</a></p>
-</li>
-</ol>
-<h2 id="Extracting-Scene-pck"><a href="#Extracting-Scene-pck" class="headerlink" title="Extracting Scene.pck"></a>Extracting Scene.pck</h2><p>Open SiglusTools and select the Scene.pck file and output folder. Keep the Decryption Key on “Try to find key when working on Scene”. </p>
-<h2 id="Converting-ss-scripts-into-text-files-or-xlsx"><a href="#Converting-ss-scripts-into-text-files-or-xlsx" class="headerlink" title="Converting .ss scripts into text files or xlsx"></a>Converting .ss scripts into text files or xlsx</h2><p>Go to “Dump ss”, select the folder containing the extracted .ss and the output folder.</p>
-<h2 id="Re-inserting-text-files-or-xlsx-back-into-ss-scripts"><a href="#Re-inserting-text-files-or-xlsx-back-into-ss-scripts" class="headerlink" title="Re-inserting text files or xlsx back into .ss scripts"></a>Re-inserting text files or xlsx back into .ss scripts</h2><p>Go to “Pack ss” and select your original .ss folder, your edited .txt or xlsx folder, and the output folder.</p>
-<h2 id="Repacking-Scene-pck"><a href="#Repacking-Scene-pck" class="headerlink" title="Repacking Scene.pck"></a>Repacking Scene.pck</h2><p>Go to “Pack Scene” and select the original Scene.pck file, your edited .ss folder, and the output folder.</p>
-<h2 id="Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher"><a href="#Optional-Siglus-Engine-word-wrapping-with-SiglusPatcher" class="headerlink" title="(Optional) Siglus Engine word-wrapping with SiglusPatcher"></a>(Optional) Siglus Engine word-wrapping with SiglusPatcher</h2><p>Put the files inside SiglusPatcher.zip into your game directory, open the directory in Command Prompt and do:</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">SiglusPatcher.exe -WordWrap SiglusEngine.exe</span><br></pre></td></tr></table></figure>
-<p>Pick any version, and it should (hopefully) work.</p>
-<h2 id="Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract"><a href="#Alternative-way-of-unpacking-and-re-packing-Scene-pck-using-SiglusExtract" class="headerlink" title="Alternative way of unpacking and re-packing Scene.pck using SiglusExtract"></a>Alternative way of unpacking and re-packing Scene.pck using SiglusExtract</h2><p>Put SiglusExtract.exe and SiglusExtract.dll into your game directory, drag the exectuable into SiglusExtract.exe or double click on SiglusExtract.exe. Drag Scene.pck into the SiglusExtract.exe window to unpack. To re-pack go to “Repack Scene.pck” and select the folder with your edited .ss files and do “Do Pack!”<br><img src="/img/SiglusEngine_6FSDFCFGac.png"></p>
-]]></content>
-      <categories>
-        <category>Tutorials</category>
-      </categories>
-      <tags>
-        <tag>Spray</tag>
-        <tag>Tsumi naru Rasen no Ori -Whispers of Iscariot-</tag>
       </tags>
   </entry>
   <entry>
